@@ -1,0 +1,912 @@
+/**********************************************************************
+ * Styles.css                                                         *
+ *                                                                    *
+ * This file is initially empty and you can add any additional styles *
+ * or modify any of the styles defined in BaseStyles.css              *
+ * This file will never be overwritten.                               *
+ *                                                                    *
+ * For example, if you want to override just the top padding for a    *
+ * menu, you can simply add the following lines:                      *
+ *                                                                    *
+ * .menus {                                                           *
+ * 	padding-top: 20px;                                            *
+ * 	}                                                             *
+ *                                                                    *
+ * This will keep all the other styles of the "menus" style as-is,    *
+ * but modify the top padding to be 20px.                             *
+ *                                                                    *
+ * You can also, add a new style by just specifying it.               *
+ *                                                                    *
+ * .menus {                                                           *
+ * 	padding-top: 20px;                                            *
+ * 	text-align: center;                                           *
+ * 	}                                                             *
+ * 	                                                              *
+ * In the above case, we added the text-align style.  This style was  *
+ * not specified in the original declaration of the menus style.      *
+ *                                                                    *
+ **********************************************************************/
+ .HiLightCell {
+    background-color :#cccccc;
+}
+.SchName {
+    
+}
+.YrTrClasLabel {
+    white-space :nowrap 
+}
+.dht1{  /*CourdeSelector*/
+    font-weight :normal ;
+    color :white ;
+
+}
+
+.noborder
+{
+    border-style: none;
+    width: 100%;
+    text-align: left;
+    color: #FF6600;
+
+}
+
+.tableRowsEdge, .tre1 { /* data grid container */
+	/*border-left: 1px #cccccc solid;*/
+    border-style :none ;
+    padding :0px;
+    margin :0px;
+	background-color:#d7fafa;
+    white-space :nowrap ;
+    text-align :right ;
+	}
+.button_link1
+{
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    width: 0px;
+    height: 0px;
+    border-top-style: none ;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: none;
+    border-right-color: none;
+    border-bottom-color: none;
+    border-left-color: none;
+}
+.ttc1   /*ttc with nowrap*/ 
+{
+    color: #666666;
+    vertical-align: top;
+    font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+    font-size: 13px;
+    text-align: left;
+    border-right: 1px #cccccc solid;
+    border-bottom: 1px #cccccc solid;
+    background-color: #ffffff;
+    border-style: none;
+    white-space: nowrap;
+}
+.ttc2   /*ttc with nowrap and not bold*/ 
+{
+    color: #666666;
+    vertical-align: top;
+    font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+    font-size: 14px;
+    text-align: left;
+    border-right: 1px #cccccc solid;
+    border-bottom: 1px #cccccc solid;
+    padding-top :3px;
+    padding-bottom :3px;
+    padding-left :2px;
+    padding-right :2px;
+   background-color: #ffffff;
+    /*border-style: none;*/
+    white-space: nowrap;
+    font-weight :normal
+}
+.ttc3       /*ttc nowrap align left*/
+{
+    
+	color: #666666;
+	vertical-align: top;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 13px;
+	text-align: left;
+	border-right: 1px #cccccc solid;
+	border-bottom: 1px #cccccc solid;
+    border-right-color :black ;
+	background-color: #ffffff;
+    white-space :nowrap ;
+    padding: 2px;
+    margin :0px;
+}
+.ttcCenter{
+    
+	color: #666666;
+	vertical-align: top;
+	font-family: Tahoma ,Aria ,Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 11px;
+	border-right: 1px #cccccc solid;
+	border-bottom: 1px #cccccc solid;
+	background-color: #ffffff;
+    text-align :center  ;
+    vertical-align :middle ;
+    padding: 2px;
+    margin :0px;
+}
+.thcRotate {
+	background-color: rgb(171, 231, 231);
+	border-bottom: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	color: #444444;
+	font-family: Tahoma, Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 11px;
+	/*font-weight: bold;*/
+	padding: 1px;
+	vertical-align:middle ;
+    text-align :center ;
+    margin :0px;
+}
+
+ .TrYr
+{
+    font-size: small;
+    font-family: Tahoma, 'Times New Roman' , Times, serif;
+    color: #FFFFFF;
+    background-color: #97CACA;
+    white-space: nowrap;
+    text-align: center;
+}
+.TrYrInput
+{
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #808080;
+}
+.NewLogo
+{
+    font-size: 44px;
+    text-align: left;
+    vertical-align: middle ;
+    /*color:#0e5787;*/
+    color: #526173;
+    font-family: 'JSPudgrong';
+    padding-left: 5px;
+    width: 100%;
+
+}
+.NewLogoMail
+{
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle ;
+    /*color:#0e5787;*/
+    color: #526173;
+    font-family: 'THSarabun';
+    padding-left: 5px;
+    width: 100%;
+
+}
+
+.NewLogoBG
+{
+    background-image: url('../../Images/Logo.gif');
+    width: 100%;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #21a8a8;
+    margin: 1em 0;
+    padding: 0; 
+}
+}
+
+.ajax__tab_tab
+{
+    color: #111111;
+    font-size: 13px;
+    font-family: Leelawadee, Tahoma, Verdana, Geneva, ms sans serif;
+}
+.msgMember
+{
+    font-size: medium;
+    font-family: 'font-family: Leelawadee' , Tahoma, Verdana, Geneva, 'ms sans serif';
+    font-weight: normal;
+}
+.msgBook
+{
+    font-size: medium;
+    font-family: 'font-family: Leelawadee' , Tahoma, Verdana, Geneva, 'ms sans serif';
+    font-weight: normal;
+}
+.rptLabel
+{
+    font-family: 'font-family: Leelawadee' , Tahoma, Verdana, Geneva, 'ms sans serif';
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #808080;
+    font-size: small;
+}
+.rptLabel1
+{
+    font-family: 'font-family: Leelawadee' , Tahoma, Verdana, Geneva, 'ms sans serif';
+    color: #808080;
+    font-size: small;
+
+}
+#TextboxSelect input
+{
+        font-size: medium;
+    font-family: 'font-family: Leelawadee' , Tahoma, Verdana, Geneva, 'ms sans serif';
+    font-weight: normal;
+
+}
+.dfy1
+{
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.CheckH {
+    border :none :
+}
+.field_input {
+    border-bottom: 1px #eeeeee solid;
+    border-left: 1px #555555 solid;
+    border-right: 1px #eeeeee solid;
+    border-top: 1px #555555 solid;
+}
+/**********************************************************************
+ * Sign In Bar Styles       /pete                                          *
+ **********************************************************************/
+.signInBar1 { /* sign in bar */
+	background-image:url(../../Images/SignInBarBackground.gif);
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 14px;
+	white-space: nowrap;
+vertical-align :top ;
+
+	}
+
+.signInBarL { /* sign in bar left edge */
+	background-image:url(../../Images/SignInBarL.gif);
+	background-repeat: no-repeat;
+	}
+
+.signInBar a, .signInBar input { /* sign in bar link text */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+	}
+
+.signInBarStatus { /* sign in bar status message text */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 14px;
+	text-align: right;
+	white-space: nowrap;
+	}
+/**********************************************************/
+.QSContainer { /* quick selector container */
+	}
+
+.QSContainer .panelSearchBox { /* quick selector search box */
+	width: 280px;
+	}
+
+.QSContainer .Search_Input { /* quick selector search box text */
+	width: 200px;
+	}
+
+.QSContainer .Search_InputHint { /* quick selector search box hint */
+	width: 200px;
+	}
+
+.QSSize { /* iframe within which quick selector is displayed */ 
+	/*height: 278px;*/
+    height: 298px;
+	width: 330px;
+	}
+
+.QSdh { /* quick selector title bar */
+	background: -moz-linear-gradient( center top, #b3ebeb 5%, #21a8a8 100% );
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b3ebeb), color-stop(1, #21a8a8) );
+	background: -ms-linear-gradient(top, #b3ebeb 5%, #21a8a8 100%);
+	border-bottom: 1px solid #333333;
+    	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#b3ebeb', endColorStr='#21a8a8');
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	height: 34px;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 3;
+	}
+
+.QSContainer .QSscrollRegion { /* quick selector scrolled region */
+	height: 220px;
+	left: 0px;
+	overflow: auto;
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	z-index: 2;	
+	}
+
+.QSfooter { /* quick selector footer bar */
+	background-color: #d7fafa;
+	height: 38px;
+	left: 0px;
+	padding-top: 2px;
+	position: fixed;
+	top: 260px;
+	width: 100%;
+	z-index: 3;
+	}
+
+.QSButtonContainer { /* quick selector clear/add button container */ 
+	padding-left: 10px;
+	width: 100px;
+	}
+
+.QSButtonContainer .themeButton { /* quick selector theme button container */
+	padding: 1px;
+	}
+
+.QSCloseButtonContainer { /* quick selector close button container */
+	width: 54px;
+	}
+
+.QSPaginationContainer { /* quick selector pagination container */
+	padding-right: 10px;
+	width: 250px;
+	}
+
+.QSPageSizeButton { /* quick selector page size button */
+	display: none;
+	}
+
+.QStr { /* quick selector row */
+	background-color: #ffffff;
+	}
+
+.QStr:hover, .QStrHighlighted, .QStrHighlighted:hover, .QStrSelected:hover { /* quick selector hover/highlighted state */
+	background-color: #d7fafa;
+	}
+
+.QStrSelected { /* quick selector selected state */
+	background-color: #ebf7f7;
+	}
+
+.QSthc { /* quick selector header cell */
+	color: #555555;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 12px;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	white-space: nowrap;
+	}
+
+.QSthc a { /* link within quick selector header cell */
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+.QSthc a:hover { /* hover state of link within quick selector header cell */
+	}
+
+.QSthc a.button_link { /* link with class button_link within quick selector header cell */
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+.QSthc a.button_link:hover { /* hover state of link with class button_link within quick selector header cell */
+	}
+
+.QSttc { /* quick selector cell */
+    border-bottom: 1px dotted #eeeeee;
+    color: #666666;
+    font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+    font-size: 14px;
+    /*height:  12.5px;*/
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.QSttc div { /* quick selector cell content container (used for long text truncation) */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 290px;
+	}
+
+.QSttc a { /* link within quick selector cell */
+	color: #666666;
+	text-decoration: none;
+	}
+
+.QSttc a:hover { /* hover state of link within quick selector cell */
+	}
+
+.QSttc a.button_link { /* link with class button_link within quick selector cell */
+	color: #666666;
+	text-decoration: none;
+	}
+
+.QSttc a.button_link:hover { /* hover state of link with class button_link within quick selector cell */
+	}
+
+
+
+/**********************************************************************
+ * Mobile Web Page Styles                                             * 
+ **********************************************************************/
+
+.mobileBase { /* mobile page default settings */
+	background-color: #ffffff;
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 3.0em;
+	width: 100%;
+	}
+
+.mobileHeader { /* mobile header area */
+	background-image: url(../../Images/MobileHeaderBackground.gif);
+	background-position: center center;
+	background-repeat: repeat-x;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 100%;
+	}
+
+.mobileHeaderPagination { /* mobile header area */
+	background-color: #d7fafa;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 100%;
+	}
+
+.mobileBody { /* mobile main content area */ 
+	padding-bottom: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	width: 100%;
+	}
+
+.mobileBodyNoPadding { /* mobile main content area (with padding removed) */
+	padding: 0px;
+	width: 100%;
+	}
+
+.mobileBodyText { /* mobile main content area default text styles */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.73em;
+	}
+
+.mobileHeaderLeft { /* mobile header area left button container */
+	text-align: left;
+	width: 10%;
+	}
+
+.mobileHeaderTitle { /* mobile header title area */
+	color: #FF6600;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.8em;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	text-align: center;
+	}
+
+.mobileFontAdjust90 { /* mobile font downscale to 90% original size (used in <span> tag around text to be adjusted) */
+	font-size: 0.9em;
+	}
+
+.mobileFontAdjust80 { /* mobile font downscale to 80% original size (used in <span> tag around text to be adjusted) */
+	font-size: 0.8em;
+	}
+
+.mobileFontAdjust70 { /* mobile font downscale to 70% original size (used in <span> tag around text to be adjusted) */ 
+	font-size: 0.7em;
+	}
+
+.mobileFontAdjust60 { /* mobile font downscale to 60% original size (used in <span> tag around text to be adjusted) */
+	font-size: 0.6em;
+	}
+
+.mobileHeaderOption { /* mobile header area icon button container */
+	width: 16%
+	}
+
+.mobileHeaderRight { /* mobile header area right button container */
+	text-align: right;
+	width: 10%;
+	}
+
+.mobileSignInStatus {
+	color: #eeeeee;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.6em;
+	text-align: right;
+	}
+
+.mobileFilterArea { /* mobile header filter area */
+	background-color: #eeeeee;
+	}
+
+.mobileFooter { /* mobile footer area */
+	border-top: 2px solid #ffb74c;
+	color: #aaaaaa;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.60em;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	padding-top: 1%;
+	width: 100%;
+	}
+
+.mobileMenu { /* mobile vertical menu item */
+	background-image: url(../../Images/MobileMenuItemBackground.gif);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	border-bottom: 2px solid #ffb74c;
+	color: #444444;
+	cursor: pointer !important;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: .90em;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-top: 3%;
+	text-transform: uppercase;
+	}
+
+.mobileSubmenuContainer { /* submenu container (menu leaves) */
+	border: 1px solid #cccccc;
+	z-index: 100;
+	}
+
+.mobileSubmenu { /* mobile menu item submenu */
+	background-color: #afcccc;
+	color: #444444;
+	cursor: pointer !important;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 1.0em;
+	padding: 1%;
+	text-transform: uppercase;
+	}
+
+.mobileMenuHorizontal { /* mobile horizontal menu item */
+	background-image: url(../../Images/MobileMenuItemBackground.gif);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #ffb74c;
+	border-right: 1px solid #ffb74c;
+	border-top: 1px solid #ffb74c; 
+	color: #444444;
+	cursor: pointer !important;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 1.2em;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+a.mobileButtonLink:link, a.mobileButtonLink:visited, .mobileButtonLink { /* mobile theme button link text */
+	color: #eeeeee;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.87em;
+	text-decoration: none;
+	text-transform: none;
+	}
+
+a.mobileLink:link, a.mobileLink:visited, .mobileLink { /* mobile link text */
+	color: #999999;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 1.0em;
+	text-decoration: underline;
+	}
+
+.mobileThemeButton {
+	-moz-border-radius: 10px;
+	-moz-box-shadow: inset 0px 2px 0px 0px #abd4d4;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: inset 0px 2px 0px 0px #abd4d4;
+	background: -moz-linear-gradient( center top, #9bcccc 20%, #88c2c2 100% );
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.20, #9bcccc), color-stop(1, #88c2c2) );
+	background: -ms-linear-gradient(top, #9bcccc 5%, #88c2c2 100%);
+	box-shadow: 0px 2px 0px #abd4d4 inset;
+	border: 2px solid #517474;
+	border-radius: 10px;
+	display: inline-block;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#9bcccc', endColorStr='#88c2c2');
+	padding: 20px 10px 20px 10px;
+	text-decoration: none;
+	white-space: nowrap;
+	}
+
+.mobileTableCellTitle { /* mobile show table cell title */
+	/*font-size: 1.2em;*/
+    font-size: 0.7em;
+	/*font-weight: bold;*/
+	}
+
+.mobileTableCell { /* mobile show table cell */
+	border-top: 1px solid #ffb74c;
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.8em;
+	padding: 2%;
+	}
+
+.mobileTableImageCell { /* mobile show table cell (to keep image cell narrow) */
+	border-top: 1px solid #ffb74c;
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.9em;
+	padding: 0%;
+	width: 1%;
+	}
+
+.mobileChildTableContainer { /* mobile child table container */
+	border: 1px solid #ffb74c;
+	margin-bottom: 2%;
+	}
+
+.mobileAccordionHeader { /* mobile accordion header area */ 
+	background-image: url(../../Images/MobileHeaderBackground.gif);
+	background-position: center center;
+	background-repeat: repeat-x;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-top: 2%;
+	vertical-align: middle;
+	}
+
+.mobileAccordionHeaderTitle { /* mobile accordion header area title */
+	color: #eeeeee;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 1.0em;
+	font-weight: normal;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-decoration: none;
+	width: 100%;
+	}
+
+.mobileChildTableCellTitle { /* mobile show child table title */
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+
+.mobileChildTableCell { /* mobile show child table cell */
+	background-color: #efefef;
+	border-bottom: 1px solid #ffb74c;
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.9em;
+	padding: 2%;	
+	}
+
+.mobileRecordPanel { /* mobile record panel area */
+	padding-bottom: 10%;
+	}
+
+.mobileFieldLabelOnTop { /* mobile record field label (above field value) */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.87em;
+	padding-bottom: 1%;
+	padding-top: 3%;
+	}
+
+.mobileFieldLabelOnRight { /* mobile record field label (to right of checkbox) */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.67em;
+	padding-bottom: 2%;
+	width: 100%;
+	}
+
+.mobileFieldLabelOnLeft { /* mobile record field label (checkbox) */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.67em;
+	padding-bottom: 2%;
+	}
+
+.mobileFieldValueOnBottom { /* mobile record field value (below field label) */
+	color: #999999;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.8em;
+	padding-bottom: 2%;
+	}
+
+.mobileFieldInput { /* mobile input textbox */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 1.0em;
+	}
+
+textarea.mobileFieldInput { /* explicitly define width of mobile textarea (work-around for compressed textarea in Live Preview) */
+	width: 86%;
+	}
+
+.mobileFilterInput { /* mobile drop-down list */
+	/*color: #999999;*/
+    color :#21a8a8;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 0.9em;
+	width: 100%;
+	}
+
+.mobilePaginationArea { /* mobile pagination area */
+	}
+
+.mobilePaginationAreaFirst { /* mobile pagination first button container */
+	text-align: left;
+	}
+
+.mobilePaginationAreaPrevious { /* mobile pagination previous button container */
+	text-align: right;
+	}
+
+.mobilePaginationAreaCurrentPage { /* mobile pagination current page text */
+	color: #666666;
+	font-family: Leelawadee, Verdana, Geneva, ms sans serif;
+	font-size: 1.0em;
+	text-align: center;
+	white-space: nowrap;
+	width: 30%;
+	}
+
+.mobilePaginationAreaNext { /* mobile pagination next button container */
+	text-align: left;
+	}
+
+.mobilePaginationAreaLast { /* mobile pagination last button container */
+	text-align: right;
+	}
+
+.mobilePaginationAreaSize { /* mobile pagination page size container */
+	}
+
+.mobileCheckbox input, input.mobileCheckbox { /* mobile checkbox (accounts for <span> container around checkbox) */
+	height: 50px;
+	width: 50px;
+	}
+
+.mobileRadioButton input, input.mobileRadioButton { /* mobile radio button (accounts for <span> container around checkbox) */
+	height: 50px;
+	width: 50px;
+	}
+
+.MyCalendarMobile .ajax__calendar_container { /* mobile ajax calendar container */
+	background-color: #ffffff;
+	border: 1px solid #666666;
+	color: #666666;
+	height: 780px;
+	width: 720px;
+	z-index: 20;
+	}
+
+.MyCalendarMobile .ajax__calendar_body, .MyCalendarMobile .ajax__calendar_body table { /* mobile ajax calendar container inner table */
+	background-color: #ffffff;
+	height: 600px;
+	width: 720px;
+	}
+
+.MyCalendarMobile .ajax__calendar_header { /* mobile ajax calendar header */
+	font-family: Arial, Verdana, Geneva, ms sans serif;
+	font-size: 4.0em;
+	padding-bottom: 40px;
+	}
+
+.MyCalendarMobile .ajax__calendar_title { /* mobile ajax calendar title */
+	color: #666666;
+	font-size: 1.2em;
+	padding-top: 30px;
+	}
+
+.MyCalendarMobile .ajax__calendar_footer { /* mobile ajax calendar footer (today's date) */
+	color: #666666;
+	font-family: Arial, Verdana, Geneva, ms sans serif;
+	font-size: 3.0em;
+	padding-top: 20px;
+	}
+
+.MyCalendarMobile .ajax__calendar_prev {
+	background-image: url(../../Images/MobileButtonPrevious.ltr.png);
+	background-repeat: no-repeat;
+	height: 120px;
+	width: 100px; 
+	}
+
+.MyCalendarMobile .ajax__calendar_next {
+	background-image: url(../../Images/MobileButtonNext.ltr.png);
+	background-repeat: no-repeat;
+	height: 120px;
+	width: 100px; 
+	}
+
+.MyCalendarMobile .ajax__calendar_dayname { /* mobile ajax calendar days of week title */
+	color: #666666;
+	font-family: Arial, Verdana, Geneva, ms sans serif;
+	font-size: 4.0em;
+	}
+
+.MyCalendarMobile .ajax__calendar_day { /* mobile ajax calendar all days */ 
+	font-family: Arial, Verdana, Geneva, ms sans serif;
+	font-size: 4.0em;
+	}
+
+.MyCalendarMobile .ajax__calendar_month, .MyCalendarMobile .ajax__calendar_year { /* mobile ajax calendar all months, years */ 
+	font-family: Arial, Verdana, Geneva, ms sans serif;
+	font-size: 2.0em;
+	}
+
+.MyCalendarMobile .ajax__calendar_months, .MyCalendarMobile .ajax__calendar_years {
+	}
+
+.MyCalendarMobile .ajax__calendar_other .ajax__calendar_day,
+.MyCalendarMobile .ajax__calendar_other .ajax__calendar_month,
+.MyCalendarMobile .ajax__calendar_other .ajax__calendar_year { /* mobile ajax calendar non-current days */
+	color: #bbbbbb;
+	font-family: Arial, Verdana, Geneva, ms sans serif;
+	font-size: 4.0em;
+	}
+
+.MyCalendarMobile .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendarMobile .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendarMobile .ajax__calendar_hover .ajax__calendar_year { /* mobile ajax calendar today/selected day hover */
+	color: #666666;
+	}
+
+.MyCalendarMobile .ajax__calendar_active .ajax__calendar_day,
+.MyCalendarMobile .ajax__calendar_active .ajax__calendar_month,
+.MyCalendarMobile .ajax__calendar_active .ajax__calendar_year { /* mobile ajax calendar current day */
+	color: #666666;
+	}
+
+.mobileRecaptchaImage img { 
+	height: 300px; 
+	width: 640px; 
+	margin: 0px; 
+	padding: 0px; 
+	}
+
+.mobileRecaptchaContainer { 
+	height: 300px;
+	width: 640px;
+	margin: 0px; 
+	padding: 0px; 
+	}
+*/

@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=10" /><meta name="keywords" content="Sgss" /><title>
+	ผลการเรียน
+</title><link href="BaseStyles.css"text/css" rel="stylesheet" /><link href="Styles.css" type="text/css" rel="stylesheet" /></head>
+    <body id="ctl00_Body1" class="pBack">
+        <form name="aspnetForm" method="post" action="grade.html" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_scriptManager1_HiddenField" id="ctl00_scriptManager1_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MTgyMjA2MjAPFCsAAxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgFoZBYCZg9kFgICAw9kFgICAQ9kFgYCAw9kFhYCAQ8PFgIeCEltYWdlVXJsBbMBLi4vU2hhcmVkL0V4cG9ydEZpZWxkVmFsdWUuYXNweD9UYWJsZT12dWpmWU1GbTY4YnJ4eHlJZm5rWEp3JTNkJTNkJkZpZWxkPWRVQndFZmFqQzFvJTNkJlJlY29yZD1DYyUyZlk5Z2xnZiUyYnVqQUR2cG5PdjNaQm9zU0hrQ3olMmJUc01rOUxSRHNDeE9UMkhabzA3dFV4UkpZeHoyY2VrU1ZvSE9Gd0JVeVFwOTglM2RkZAIDDw8WAh4HVmlzaWJsZWhkZAIFDxYCHgRUZXh0BSHguYTguJ7guKjguLLguKXguLXguJ7guLTguJfguKLguLJkAgkPEA8WBB4LXyFEYXRhQm91bmRnHwJoZGQWAGQCCw8PFgIfAmhkZAINDxAPFgIfBGdkEBUDDUVsZWN0cmljIEJsdWULRmlyZSBFbmdpbmUMR3Jhbm55IEFwcGxlFQMNRWxlY3RyaWMgQmx1ZQtGaXJlIEVuZ2luZQxHcmFubnkgQXBwbGUUKwMDZ2dnFgFmZAIRDw8WBB4HVG9vbFRpcAUe4Lit4Lit4LiB4LiI4Liy4LiB4Lij4Liw4Lia4LiaHwMFHuC4reC4reC4geC4iOC4suC4geC4o+C4sOC4muC4mmRkAhMPDxYEHwEFHi4uL0ltYWdlcy9TaWduSW5CYXJTaWduT3V0LmdpZh8FBR7guK3guK3guIHguIjguLLguIHguKPguLDguJrguJoWBB4Lb25tb3VzZW92ZXIFLXRoaXMuc3JjPScuLi9JbWFnZXMvU2lnbkluQmFyU2lnbk91dE92ZXIuZ2lmJx4Kb25tb3VzZW91dAUpdGhpcy5zcmM9Jy4uL0ltYWdlcy9TaWduSW5CYXJTaWduT3V0LmdpZidkAhUPDxYCHwJoZGQCFw8PFgQfBQUb4Lie4Li04Lih4Lie4LmM4Lir4LiZ4LmJ4LiyHwJoZGQCHQ8PFgQfAwUvIOC5gOC4l+C4p+C4siDguYDguKvguKXguYjguLLguIHguKrguLTguIHguLLguKMfAmdkZAIEDw8WAh4DX0hTBQ1NZW51Mk1lbnVJdGVtZBYEAg0PDxYCHwJoZGQCDw8PFgIfAmdkZAIFD2QWBAIDD2QWAmYPZBYCAgEPFggeJlZpZXdfVHJhbnNTY29yZVN1YlRhYmxlQ29udHJvbF9PcmRlckJ5BccFPE5hbWUgU2VsY3RUeXBlPSJPcmRCeUNvbHMiPjxFeHBGS0NvbHM+VHJ1ZTwvRXhwRktDb2xzPjxDYXNlU2Vucz5GYWxzZTwvQ2FzZVNlbnM+PE9yZENvbHM+PE9yZENvbD48T3JkZXJEaXI+QXNjPC9PcmRlckRpcj48Q29sIHR1PSJTZ3NzLkJ1c2luZXNzLlZpZXdfVHJhbnNTY29yZVN1YlZpZXcsIEFwcF9Db2RlLmNrcXlyd2h6LCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIgY1VOPSJWaWV3X1RyYW5zU2NvcmVTdWJfLlN1YmplY3RUeXBlSUQiIC8+PC9PcmRDb2w+PE9yZENvbD48T3JkZXJEaXI+QXNjPC9PcmRlckRpcj48Q29sIHR1PSJTZ3NzLkJ1c2luZXNzLlZpZXdfVHJhbnNTY29yZVN1YlZpZXcsIEFwcF9Db2RlLmNrcXlyd2h6LCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIgY1VOPSJWaWV3X1RyYW5zU2NvcmVTdWJfLlN1YmplY3RHcm91cElEIiAvPjwvT3JkQ29sPjxPcmRDb2w+PE9yZGVyRGlyPkFzYzwvT3JkZXJEaXI+PENvbCB0dT0iU2dzcy5CdXNpbmVzcy5WaWV3X1RyYW5zU2NvcmVTdWJWaWV3LCBBcHBfQ29kZS5ja3F5cndoeiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiIGNVTj0iVmlld19UcmFuc1Njb3JlU3ViXy5Db2RlIiAvPjwvT3JkQ29sPjwvT3JkQ29scz48L05hbWU+HgpQYWdlX0luZGV4Zh4JUGFnZV9TaXplAjIeEERlbGV0ZWRSZWNvcmRJZHNkFgYCAw8PFgIfBQUW4Lii4LmI4LitL+C4guC4ouC4suC4omRkAgUPFgIfA2VkAgkPZBYUAgMPEA8WAh8EZ2QQFQchKiog4LmC4Lib4Lij4LiU4LmA4Lil4Li34Lit4LiBICoqNeC4m+C4teC4l+C4teC5iCAxIOC4oOC4suC4hOC5gOC4o+C4teC4ouC4meC4l+C4teC5iCAxNeC4m+C4teC4l+C4teC5iCAxIOC4oOC4suC4hOC5gOC4o+C4teC4ouC4meC4l+C4teC5iCAyNeC4m+C4teC4l+C4teC5iCAyIOC4oOC4suC4hOC5gOC4o+C4teC4ouC4meC4l+C4teC5iCAxNeC4m+C4teC4l+C4teC5iCAyIOC4oOC4suC4hOC5gOC4o+C4teC4ouC4meC4l+C4teC5iCAyNeC4m+C4teC4l+C4teC5iCAzIOC4oOC4suC4hOC5gOC4o+C4teC4ouC4meC4l+C4teC5iCAxNeC4m+C4teC4l+C4teC5iCAzIOC4oOC4suC4hOC5gOC4o+C4teC4ouC4meC4l+C4teC5iCAyFQcRLS1QTEVBU0VfU0VMRUNULS0CMTECMTICMjECMjICMzECMzIUKwMHZ2dnZ2dnZxYBZmQCBQ8PFgIfBQUk4Liq4LmI4LiH4Lit4Lit4LiB4LmA4Lib4LmH4LiZIGV4Y2VsZGQCBw8PFgIfBQU54Lii4LiB4LmA4Lil4Li04LiB4LiB4Liy4Lij4LiB4Lij4Lit4LiH4LiC4LmJ4Lit4Lih4Li54LilZGQCCQ9kFg5mDw8WBB8FBRXguKvguJnguYnguLLguYHguKPguIEeB0VuYWJsZWRoZGQCAQ8PFgQfBQUY4Lir4LiZ4LmJ4Liy4LiB4LmI4Lit4LiZHw1oZGQCAw8VAQnguILguK3guIdkAgQPDxYCHwMFATBkZAIFDw8WBB8FBRvguKvguJnguYnguLLguJbguLHguJTguYTguJsfDWhkZAIGDw8WBB8FBSHguKvguJnguYnguLLguKrguLjguJTguJfguYnguLLguKIfDWhkZAIIDw8WAh8DBQzguKvguJnguYnguLJkZAIbDw8WAh8DBRLguKPguYnguK3guKLguKXguLBkZAIxDw8WAh8DBQzguYDguJXguYfguKFkZAIzDw8WAh8DBQnguYTguJTguYlkZAI7Dw8WAh8DBQzguYDguIHguKPguJRkZAI9DxYCHgtfIUl0ZW1Db3VudGZkAj8PFgYeJFZpZXdfVHJhbnNTdWJHUEFUYWJsZUNvbnRyb2xfT3JkZXJCeQWzAjxOYW1lIFNlbGN0VHlwZT0iT3JkQnlDb2xzIj48RXhwRktDb2xzPlRydWU8L0V4cEZLQ29scz48Q2FzZVNlbnM+RmFsc2U8L0Nhc2VTZW5zPjxPcmRDb2xzPjxPcmRDb2w+PE9yZGVyRGlyPkFzYzwvT3JkZXJEaXI+PENvbCB0dT0iU2dzcy5CdXNpbmVzcy5WaWV3X1RyYW5zU3ViR1BBVmlldywgQXBwX0NvZGUuY2txeXJ3aHosIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiBjVU49IlZpZXdfVHJhbnNTdWJHUEFfLlN1YmplY3RUeXBlSUQiIC8+PC9PcmRDb2w+PC9PcmRDb2xzPjwvTmFtZT4fCmYfCwIKFhICAQ8WAh8DBR7guJvguKPguLDguYDguKDguJfguKfguLTguIrguLJkAgMPFgIfAwUr4LiX4Li14LmI4LmA4Lij4Li14Lii4LiZL+C4l+C4teC5iOC5hOC4lOC5iWQCBQ8WAh8DBRLguYDguInguKXguLXguYjguKJkAgcPFgIfAwU44Liq4Liw4Liq4LihIOC4l+C4teC5iOC5gOC4o+C4teC4ouC4mS/guJfguLXguYjguYTguJTguYlkAgkPFgIfAwUe4LmA4LiJ4Lil4Li14LmI4Lii4Liq4Liw4Liq4LihZAILDxYCHw5mZAIPDxYCHwNlZAITDxYCHwNlZAIXDxYCHwNlZAIFDw8WAh4KSGVhZGVyVGV4dAVb4LmC4Lib4Lij4LiU4LmB4LiB4LmJ4LmE4LiC4LiC4LmJ4Lit4Lic4Li04LiU4Lie4Lil4Liy4LiU4LiU4Lix4LiH4LiV4LmI4Lit4LmE4Lib4LiZ4Li14LmJOmRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYGBRtjdGwwMCRfUGFnZUhlYWRlciRfU0lPSW1hZ2UFKGN0bDAwJFBhZ2VDb250ZW50JFZpZXdfVHJhbnNTY29yZVN1Ykljb24FNWN0bDAwJFBhZ2VDb250ZW50JFZpZXdfVHJhbnNTY29yZVN1YkV4cG9ydEV4Y2VsQnV0dG9uBS9jdGwwMCRQYWdlQ29udGVudCRWaWV3X1RyYW5zU2NvcmVTdWJSZXNldEJ1dHRvbgU8Y3RsMDAkUGFnZUNvbnRlbnQkVmlld19UcmFuc1Njb3JlU3ViUGFnaW5hdGlvbiRfUHJldmlvdXNQYWdlBThjdGwwMCRQYWdlQ29udGVudCRWaWV3X1RyYW5zU2NvcmVTdWJQYWdpbmF0aW9uJF9OZXh0UGFnZeFs0+Coezpq2qO50Jxu5vFqgp1joXeWqOAz3mmgAwHQ" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/sgss/WebResource.axd?d=wQNoR4cuMGNh5BvxzfU7LLJx093ez-SZd7BvwuIQDlAAwsxvu_rV9UmVZit0cLms7nlkTXDOsdLxjTJhMJW-AHBiO8rUvph0LSwsqAYwrA01&amp;t=637100518460000000" type="text/javascript"></script>
+
+<script language="javascript"  type="text/javascript" src="/sgss/ApplicationWebForm.js"></script><script language="javascript"  type="text/javascript" src="/sgss/SetFocus.js"></script><script language="javascript"  type="text/javascript" src="/sgss/ApplicationWebUIValidation.js"></script><script language="javascript"  type="text/javascript" src="/sgss/JQuery.js"></script><script language="javascript"  type="text/javascript" src="/sgss/LegacyFunctions.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"th-TH","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"฿","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["๐","๑","๒","๓","๔","๕","๖","๗","๘","๙"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402275599999)\/","AlgorithmType":1,"Eras":[1],"TwoDigitYearMax":2572,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"d MMMM yyyy H:mm:ss","LongDatePattern":"d MMMM yyyy","LongTimePattern":"H:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"d/M/yyyy","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."],"ShortestDayNames":["อ","จ","อ","พ","พ","ศ","ส"],"DayNames":["อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์"],"AbbreviatedMonthNames":["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค.",""],"MonthNames":["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม",""],"IsReadOnly":true,"NativeCalendarName":"พุทธศักราช","AbbreviatedMonthGenitiveNames":["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค.",""],"MonthGenitiveNames":["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม",""]},"eras":[1,"พ.ศ.",null,-543]};//]]>
+</script>
+
+<script src="/sgss/ScriptResource.axd?d=-ZGCOdK82Ev_Sz_CMxqoZJ0pN56A1Rdy2Oc638MAvvhmt0zYSMaXoIy-AQ7m8r-LTZ2QyUF5UNTCF-kVTPUVVniV_rQPALJ739QNKsljyV8VERpnn8-nQEM-Z8NWEWceI8FRk9NbMuI4pXIFGJWX4A2&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/sgss/ScriptResource.axd?d=a3qm6e5uliLmamGKRlCP4d23Lgw0Z_vbVm90LqTzH6NNHhJUtVkAdiecWtjLJF0XHIha3YzVO_EqNeS6MiJF2Rd3cOvm52QNgHzvDUlhUevIaDmpTFYqIQDsbJJ0hW5mquIAc_TNRKO7teTDb-J3NA2&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/sgss/View_TransScoreSub/Show-View-TransScoreSub-Table.aspx?_TSM_HiddenField_=ctl00_scriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.60919.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3ath-TH%3aee051b62-9cd6-49a5-87bb-93c07bc43d63%3a5546a2b%3a475a4ef5%3ad2e10b12%3aeffe2a26%3af9e9a939" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+SortListItems:function(str,succeededCallback, failedCallback, userContext) {
+/// <param name="str" type="String">System.String</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'SortListItems',false,{str:str},succeededCallback,failedCallback,userContext); },
+GetRecordFieldValue:function(tableName,recordID,columnName,fieldName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,succeededCallback, failedCallback, userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="fieldName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'GetRecordFieldValue',false,{tableName:tableName,recordID:recordID,columnName:columnName,fieldName:fieldName,title:title,closeBtnText:closeBtnText,persist:persist,popupWindowHeight:popupWindowHeight,popupWindowWidth:popupWindowWidth,popupWindowScrollBar:popupWindowScrollBar},succeededCallback,failedCallback,userContext); },
+GetImage:function(tableName,recordID,columnName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,succeededCallback, failedCallback, userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'GetImage',false,{tableName:tableName,recordID:recordID,columnName:columnName,title:title,closeBtnText:closeBtnText,persist:persist,popupWindowHeight:popupWindowHeight,popupWindowWidth:popupWindowWidth,popupWindowScrollBar:popupWindowScrollBar},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) {
+PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { 
+/// <value type="String" mayBeNull="true">The service url.</value>
+return PageMethods._staticInstance.get_path();}
+PageMethods.set_timeout = function(value) {
+PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { 
+/// <value type="Number">The service timeout.</value>
+return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { 
+PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { 
+/// <value mayBeNull="true">The service default user context.</value>
+return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { 
+ PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { 
+/// <value type="Function" mayBeNull="true">The service default succeeded callback.</value>
+return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { 
+PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { 
+/// <value type="Function" mayBeNull="true">The service default failed callback.</value>
+return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { 
+/// <value type="Boolean">Specifies whether the service supports JSONP for cross domain calling.</value>
+return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { 
+/// <value type="String">Specifies the parameter name that contains the callback function name for a JSONP request.</value>
+return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("Show-View-TransScoreSub-Table.aspx");
+PageMethods.SortListItems= function(str,onSuccess,onFailed,userContext) {
+/// <param name="str" type="String">System.String</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.SortListItems(str,onSuccess,onFailed,userContext); }
+PageMethods.GetRecordFieldValue= function(tableName,recordID,columnName,fieldName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="fieldName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.GetRecordFieldValue(tableName,recordID,columnName,fieldName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext); }
+PageMethods.GetImage= function(tableName,recordID,columnName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.GetImage(tableName,recordID,columnName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext); }
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4A0519CE" />
+</div>
+<input type="hidden" name="isd_geo_location" id="isd_geo_location" value="<location>
+<latitude>37.40</latitude>
+<longitude>-121.93</longitude>
+<unit>meters</unit>
+<error>LOCATION_ERROR_DISABLED</error>
+</location>
+" />
+<script type="text/javascript">
+<!--
+ISD_GeolocationInit();
+//-->
+</script>
+            <input name="ctl00$pageLeftCoordinate" type="hidden" id="ctl00_pageLeftCoordinate" /><input name="ctl00$pageTopCoordinate" type="hidden" id="ctl00_pageTopCoordinate" />
+            <span id="ctl00_PageSettings"></span>
+            <script language="JavaScript" type="text/javascript">clearRTL()</script>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'aspnetForm', ['tctl00$PageContent$UpdatePanel1',''], [], ['ctl00$PageContent$View_TransScoreSubExportExcelButton',''], 90, 'ctl00');
+//]]>
+</script>
+
+          <script language="JavaScript" type="text/javascript">avoidTabFocused();</script><table cellpadding="0" cellspacing="0" border="0" class="pWrapper"><tr><td colspan="3"><table border="0" cellpadding="0" cellspacing="0" style="width:100%;"><tr><td class="pageTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageTLSpace" alt="" /></td><td class="pageT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageTSpace" alt="" /></td><td class="pageTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageTRSpace" alt="" /></td></tr></table>
+</td></tr><tr><td class="pageL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageLSpace" alt="" /></td><td class="pageC"><table border="0" cellpadding="0" cellspacing="0" style="width: 100%"><tr><td class="marginTL">&nbsp;</td><td class="pcT" colspan="2"><table cellpadding="0" cellspacing="0" border="0" width="100%" class="logoBG"><tr><td rowspan="3"><img id="ctl00__PageHeader__Logo" src="http://sgs6.bopp-obec.info/sgss/Shared/ExportFieldValue.aspx?Table=vujfYMFm68brxxyIfnkXJw%3d%3d&amp;Field=dUBwEfajC1o%3d&amp;Record=Cc%2fY9glgf%2bujADvpnOv3ZBosSHkCz%2bTsMk9LRDsCxOT2HZo07tUxRJYxz2cekSVoHOFwBUyQp98%3d" style="height:50px;width:50px;border-width:0px;" /></td><td rowspan="3"></td><td class="NewLogo" rowspan="3">ไพศาลีพิทยา</td><td class="fls" style="vertical-align:top;text-align:left;"></td><td class="fls" style="vertical-align:top;text-align:left;"></td><td class="fls" style="vertical-align:top;text-align:left;"></td><td style="vertical-align:top;" class="flsH"></td><td style="text-align:right; vertical-align:top;" rowspan="3"><table cellpadding="0" cellspacing="0" border="0"><tr><td><table cellpadding="0" cellspacing="0" border="0"><tr><td style="width:100%;"></td><td><img id="ctl00__PageHeader__LeftImage" alt="" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarL.gif" style="height:23px;width:36px;border-width:0px;" /></td><td class="signInBar"></td><td class="signInBar"></td><td class="signInBar"><select name="ctl00$_PageHeader$ThemeSelector" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$_PageHeader$ThemeSelector\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00__PageHeader_ThemeSelector" title="เปลี่ยนธีม" class="Filter_Input">
+    <option selected="selected" value="Realme UI" id="ThemeSelectorRealme_UIListItem">Realme UI</option>
+    <option value="Electric Blue" id="ThemeSelectorElectric_BlueListItem">Electric Blue</option>
+    <option value="Fire Engine" id="ThemeSelectorFire_EngineListItem">Fire Engine</option>
+	<option value="Granny Apple" id="ThemeSelectorGranny_AppleListItem">Granny Apple</option>
+
+</select></td><td class="signInBar"><img id="ctl00__PageHeader__Divider0" alt="" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarDivider.gif" style="border-width:0px;" /></td><td class="signInBar"><a id="ctl00__PageHeader__SignIn" title="ออกจากระบบ" href="javascript:__doPostBack(&#39;ctl00$_PageHeader$_SignIn&#39;,&#39;&#39;)">ออกจากระบบ</a></td><td class="signInBar"><input type="image" name="ctl00$_PageHeader$_SIOImage" id="ctl00__PageHeader__SIOImage" title="ออกจากระบบ" alt="SignInButton" onmouseover="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/SignInBarSignOutOver.gif&#39;" onmouseout="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/SignInBarSignOut.gif&#39;" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarSignOut.gif" style="border-width:0px;" /></td><td class="signInBar"></td><td class="signInBar"><a href="javascript:printPage();" /> 
+</td><td><img id="ctl00__PageHeader__RightImage" alt="" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarR.gif" style="height:23px;width:36px;border-width:0px;" /></td></tr><tr><td></td><td></td><td class="signInBarStatus" colspan="8"><span id="ctl00__PageHeader__UserStatusLbl"> เทวา เหล่ากสิการ</span></td><td class="signInBarStatus"></td></tr></table>
+</td></tr></table>
+</td></tr><tr><td class="fls" style="vertical-align:top;"></td><td class="fls" style="vertical-align:top;"></td><td class="fls" style="vertical-align:top;"></td><td class="fls" style="vertical-align:top;"></td></tr><tr><td></td><td></td><td></td><td class="fls"></td></tr></table></td><td class="marginTR">&nbsp;</td></tr><tr><td class="marginmL">&nbsp;</td><td class="pcmL"></td><td class="pcmC">
+<table cellpadding="0" cellspacing="0" border="0"><tr><td class="menus"><table cellpadding="0" cellspacing="0" border="0"><tr><td><img src="http://sgs6.bopp-obec.info/sgss/Images/menuEdgeL.gif" alt="" /></td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__ข_าวประชาส_มพ_นธ_MenuItem__Button" title="ข่าวประชาสัมพันธ์" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_ข_าวประชาส_มพ_นธ_MenuItem$_Button&#39;,&#39;&#39;)">ข่าวประชาสัมพันธ์</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__Menu1MenuItem__Button" title="ประวัตินักเรียน" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_Menu1MenuItem$_Button&#39;,&#39;&#39;)">ประวัตินักเรียน</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__Menu3MenuItem__Button" title="ตรวจสอบเวลาเรียน" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_Menu3MenuItem$_Button&#39;,&#39;&#39;)">ตรวจสอบเวลาเรียน</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						
+						
+<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="moTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="moT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="moTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="moL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="moC"><a id="ctl00__Menu__Menu2MenuItemHilited__Button" title="ผลการเรียน" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_Menu2MenuItemHilited$_Button&#39;,&#39;&#39;)">ผลการเรียน</a></td><td class="moR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="moBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="moB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="moBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__ผลการเร_ยนไม_ผ_านMenuItem__Button" title="ผลการเรียนไม่ผ่าน" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_ผลการเร_ยนไม_ผ_านMenuItem$_Button&#39;,&#39;&#39;)">ผลการเรียนไม่ผ่าน</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__SubjectsElectionMenuItem__Button" title="เลือกเสรี" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_SubjectsElectionMenuItem$_Button&#39;,&#39;&#39;)">เลือกเสรี</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__พ_มพ_คำร_องสอบแก_ต_วMenuItem__Button" title="พิมพ์คำร้องสอบแก้ตัว" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_พ_มพ_คำร_องสอบแก_ต_วMenuItem$_Button&#39;,&#39;&#39;)">พิมพ์คำร้องสอบแก้ตัว</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__พ_มพ_คำร_องขอใบร_บรองMenuItem__Button" title="พิมพ์คำร้องขอใบรับรอง" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_พ_มพ_คำร_องขอใบร_บรองMenuItem$_Button&#39;,&#39;&#39;)">พิมพ์คำร้องขอใบรับรอง</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__พ_มพ__ปพ_6MenuItem__Button" title="พิมพ์ ปพ.6" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_พ_มพ__ปพ_6MenuItem$_Button&#39;,&#39;&#39;)">พิมพ์ ปพ.6</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt="" /></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt="" /></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td><td class="mC"><a id="ctl00__Menu__พ_มพ__ปพ_1MenuItem__Button" title="พิมพ์ ปพ.1" class="menu" href="javascript:__doPostBack(&#39;ctl00$_Menu$_พ_มพ__ปพ_1MenuItem$_Button&#39;,&#39;&#39;)">พิมพ์ ปพ.1</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt="" /></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt="" /></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt="" /></td></tr></table>
+						
+					</td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/menuEdgeR.gif" alt="" /></td></tr></table>
+</td></tr><tr><td class="mbbg"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="1" width="1" alt="" /></td></tr></table></td><td class="marginmR">&nbsp;</td></tr><tr><td class="marginL">&nbsp;</td><td class="pcL"></td><td class="pcC">
+    <a id="StartOfPageContent"></a>
+    <div id="scrollRegion" class="scrollRegion"><div id="ctl00_PageContent_UpdatePanel1_UpdateProgress1" style="display:none;">
+	
+				<div class="ajaxUpdatePanel">
+				</div>
+				<div style="position:absolute; padding:30px;" class="updatingContainer">
+					<img src="http://sgs6.bopp-obec.info/sgss/Images/updating.gif" alt="Updating" />
+				</div>
+			
+</div>
+		<div id="ctl00_PageContent_UpdatePanel1">
+	
+
+                <table><tr><td>	<table class="dv" cellpadding="0" cellspacing="0" border="0"><tr><td class="panelTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="panelTLSpace" alt="" /></td><td class="panelT"></td><td class="panelTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="panelTRSpace" alt="" /></td></tr><tr><td class="panelHeaderL"></td><td class="dh">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td class="dhel"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" /></td><td class="dhb"><input type="hidden" name="ctl00$PageContent$View_TransScoreSubPanelExtender_ClientState" id="ctl00_PageContent_View_TransScoreSubPanelExtender_ClientState" />
+<input type="image" name="ctl00$PageContent$View_TransScoreSubIcon" id="ctl00_PageContent_View_TransScoreSubIcon" title="ย่อ/ขยาย" src="http://sgs6.bopp-obec.info/sgss/images/icon_panelcollapse.gif" style="border-width:0px;" /></td><td class="dhb"><table cellpadding="0" cellspacing="0" border="0"><tr><td class="dht" valign="middle" style="white-space:nowrap"><table cellpadding="0" cellspacing="0" border="0"><tr><td style="white-space :nowrap"></td><td style="white-space :nowrap">&nbsp;&nbsp;</td><td style="white-space :nowrap"></td></tr></table>
+</td></tr></table>
+</td><td class="dher"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" /></td></tr></table>
+
+                </td><td class="panelHeaderR"></td></tr><tr><td class="panelL"></td><td><div id="ctl00_PageContent_View_TransScoreSubTableControlCollapsibleRegion">
+		
+<table class="dBody" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+                        <table><tr><td class="fila">ภาคเรียน</td><td><select name="ctl00$PageContent$ColTrFilter" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$PageContent$ColTrFilter\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_PageContent_ColTrFilter" class="Filter_Input" onkeypress="dropDownListTypeAhead(this,false)">
+			<option selected="selected" value="--PLEASE_SELECT--">** โปรดเลือก **</option>
+			<option value="11">ปีที่ 1 ภาคเรียนที่ 1</option>
+			<option value="12">ปีที่ 1 ภาคเรียนที่ 2</option>
+			<option value="21">ปีที่ 2 ภาคเรียนที่ 1</option>
+			<option value="22">ปีที่ 2 ภาคเรียนที่ 2</option>
+			<option value="31">ปีที่ 3 ภาคเรียนที่ 1</option>
+			<option value="32">ปีที่ 3 ภาคเรียนที่ 2</option>
+            <option value="33">ปีที่ 4 ภาคเรียนที่ 1</option>
+            <option value="34">ปีที่ 4 ภาคเรียนที่ 2</option>
+
+		</select> </td></tr></table>
+
+                        </td></tr><tr><td class="pr" style="vertical-align: top">
+                      <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;"><tr><td><img src="http://sgs6.bopp-obec.info/sgss/Images/paginationRowEdgeL.gif" alt="" /></td><td class="prbbc"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeL.gif" alt="" /></td><td class="prbbc"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarDividerL.gif" alt="" /></td><td class="prbbc"></td><td class="prbbc"></td><td class="prbbc"><input type="image" name="ctl00$PageContent$View_TransScoreSubExportExcelButton" id="ctl00_PageContent_View_TransScoreSubExportExcelButton" title="ส่งออกเป็น excel" onmouseout="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarExcelExport.gif&#39;" onmouseover="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarExcelExportOver.gif&#39;" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarExcelExport.gif" style="border-width:0px;" /></td><td class="prbbc"><input type="image" name="ctl00$PageContent$View_TransScoreSubResetButton" id="ctl00_PageContent_View_TransScoreSubResetButton" title="ยกเลิกการกรองข้อมูล" onmouseout="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarReset.gif&#39;" onmouseover="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarResetOver.gif&#39;" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarReset.gif" style="border-width:0px;" /></td><td class="prbbc"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarDividerR.gif" alt="" /></td><td class="prspace"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeR.gif" alt="" /></td><td class="pra"><table cellspacing="0" cellpadding="0" border="0" style="width: 100%"><tr><td style="width: 50%"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" width="10" height="1" alt="" /></td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeL.gif" alt="" /></td><td></td><td><input type="image" name="ctl00$PageContent$View_TransScoreSubPagination$_PreviousPage" id="ctl00_PageContent_View_TransScoreSubPagination__PreviousPage" disabled="disabled" title="หน้าก่อน" onmouseout="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarPrevious.gif&#39;" onmouseover="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarPreviousOver.gif&#39;" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarPrevious.gif" style="border-width:0px;" /></td><td class="prbg"><div onkeypress="return (!Fev_HandleFormSubmitKeyPress('ctl00$PageContent$View_TransScoreSubPagination$_PageSizeButton', event));" ><input name="ctl00$PageContent$View_TransScoreSubPagination$_CurrentPage" type="text" value="0" maxlength="10" id="ctl00_PageContent_View_TransScoreSubPagination__CurrentPage" class="Pagination_Input" size="5" /></div></td><td class="prbg">ของ <b><span id="ctl00_PageContent_View_TransScoreSubPagination__TotalPages">0</span></b></td><td><input type="image" name="ctl00$PageContent$View_TransScoreSubPagination$_NextPage" id="ctl00_PageContent_View_TransScoreSubPagination__NextPage" disabled="disabled" title="หน้าถัดไป" onmouseout="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarNext.gif&#39;" onmouseover="this.src=&#39;http://sgs6.bopp-obec.info/sgss/Images/ButtonBarNextOver.gif&#39;" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarNext.gif" style="border-width:0px;" /></td><td></td><td class="prbg"><div onkeypress="return (!Fev_HandleFormSubmitKeyPress('ctl00$PageContent$View_TransScoreSubPagination$_PageSizeButton', event));" ><input name="ctl00$PageContent$View_TransScoreSubPagination$_PageSize" type="text" value="50" maxlength="5" id="ctl00_PageContent_View_TransScoreSubPagination__PageSize" class="Pagination_Input" size="5" /></div></td><td class="prbg">/</td><td class="prbggo"><a id="ctl00_PageContent_View_TransScoreSubPagination__PageSizeButton" class="button_link" href="javascript:__doPostBack(&#39;ctl00$PageContent$View_TransScoreSubPagination$_PageSizeButton&#39;,&#39;&#39;)">หน้า</a></td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeR.gif" alt="" /></td><td style="width: 50%"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" width="10" height="1" alt="" /></td></tr></table>
+            <!--To change the position of the pagination control, please search for "prspace" on the Online Help for instruction. --></td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/paginationRowEdgeR.gif" alt="" /></td></tr></table>
+</td></tr><tr><td class="tre"><table id="View_TransScoreSubTableControlGrid" cellpadding="0" cellspacing="0" border="0" width="100%" onkeydown="captureUpDownKey(this, event)"><tr class="tch"><th class="thc" scope="col" rowspan="2" style="vertical-align:middle;text-align:center;"><a id="ctl00_PageContent_CodeLabel" title="Sort by Code" href="javascript:__doPostBack(&#39;ctl00$PageContent$CodeLabel&#39;,&#39;&#39;)">วิขา</a></th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;" rowspan="2"><a id="ctl00_PageContent_TitlesLabel" title="Sort by Titles" href="javascript:__doPostBack(&#39;ctl00$PageContent$TitlesLabel&#39;,&#39;&#39;)">ขื่อวิชา</a></th><th class="thc" scope="col" rowspan="2" style="text-align:center;vertical-align:middle;"><a id="ctl00_PageContent_CreditsLabel" title="Sort by Credits" href="javascript:__doPostBack(&#39;ctl00$PageContent$CreditsLabel&#39;,&#39;&#39;)">หน่วยกิต</a></th><th class="thc" scope="col" colspan="2" style="vertical-align:middle;text-align:center;">ก่อนกลางภาค</th><th class="thc" scope="col" colspan="2" style="text-align:center;vertical-align:middle;">สอบกลางภาค</th><th class="thc" scope="col" colspan="2" style="text-align:center;vertical-align:middle;">หลังกลางภาค</th><th class="thc" scope="col" colspan="2"><span id="ctl00_PageContent_LabelFinal">สอบปลายภาค</span></th><th class="thc" scope="col" colspan="2" style="text-align:center;vertical-align:middle;"><span id="ctl00_PageContent_LabelTotal">รวม</span></th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;" rowspan="2"><a id="ctl00_PageContent_TotalPercentLabel" title="Sort by TotalPercent" href="javascript:__doPostBack(&#39;ctl00$PageContent$TotalPercentLabel&#39;,&#39;&#39;)">ร้อยละ</a></th><th class="thc" scope="col" colspan="4" style="text-align:center;vertical-align:middle;"><span id="ctl00_PageContent_LabelGrade">ผลการเรียน</span></th><th class="thc" scope="col" rowspan="2" style="text-align:center;vertical-align:middle;"><a id="ctl00_PageContent_RemarkLabel" title="Sort by Remark" href="javascript:__doPostBack(&#39;ctl00$PageContent$RemarkLabel&#39;,&#39;&#39;)">หมายเหตุ</a></th></tr><tr class="tch"><th class="thc" scope="col" style="text-align:center;">
+                           <a id="ctl00_PageContent_FScoreMidLabel" title="Sort by FScoreMid" href="javascript:__doPostBack(&#39;ctl00$PageContent$FScoreMidLabel&#39;,&#39;&#39;)">เต็ม</a>    
+                        </th><th class="thc" scope="col" style="text-align:center;">
+                           <a id="ctl00_PageContent_ScoreMidLabel" title="Sort by ScoreMid" href="javascript:__doPostBack(&#39;ctl00$PageContent$ScoreMidLabel&#39;,&#39;&#39;)">ได้</a>    
+                        </th><th class="thc" scope="col" style="vertical-align:middle;text-align:center;">
+                           <a id="ctl00_PageContent_FMidTermLabel" title="Sort by FMidTerm" href="javascript:__doPostBack(&#39;ctl00$PageContent$FMidTermLabel&#39;,&#39;&#39;)">เต็ม</a>    
+                        </th><th class="thc" scope="col" style="vertical-align:middle;text-align:center;">
+                           <a id="ctl00_PageContent_MidTermLabel" title="Sort by MidTerm" href="javascript:__doPostBack(&#39;ctl00$PageContent$MidTermLabel&#39;,&#39;&#39;)">ได้</a>    
+                        </th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;">
+                           <a id="ctl00_PageContent_FFinalLabel" title="Sort by FFinal" href="javascript:__doPostBack(&#39;ctl00$PageContent$FFinalLabel&#39;,&#39;&#39;)">เต็ม</a></th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;">
+                           <a id="ctl00_PageContent_ScoreFinalLabel" title="Sort by ScoreFinal" href="javascript:__doPostBack(&#39;ctl00$PageContent$ScoreFinalLabel&#39;,&#39;&#39;)">ได้</a>    
+                        </th><th class="thc" scope="col" style="text-align:center;">
+                           <a id="ctl00_PageContent_FScoreLabel" title="Sort by FScore" href="javascript:__doPostBack(&#39;ctl00$PageContent$FScoreLabel&#39;,&#39;&#39;)">เต็ม</a></th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;">
+                           <a id="ctl00_PageContent_FinalLabel" title="Sort by Final" href="javascript:__doPostBack(&#39;ctl00$PageContent$FinalLabel&#39;,&#39;&#39;)">ได้</a>    
+                        </th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;"><a id="ctl00_PageContent_FTotalLabel" title="Sort by FTotal" href="javascript:__doPostBack(&#39;ctl00$PageContent$FTotalLabel&#39;,&#39;&#39;)">เต็ม</a></th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;">
+                           <a id="ctl00_PageContent_TotalLabel" href="javascript:__doPostBack(&#39;ctl00$PageContent$TotalLabel&#39;,&#39;&#39;)">ได้</a> 
+</th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_GrLabel" title="Sort by Gr" href="javascript:__doPostBack(&#39;ctl00$PageContent$GrLabel&#39;,&#39;&#39;)">ปกติ</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_ReGrLabel" title="Sort by ReGr" href="javascript:__doPostBack(&#39;ctl00$PageContent$ReGrLabel&#39;,&#39;&#39;)">แก้ตัว</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_RepeatGrLabel" title="Sort by RepeatGr" href="javascript:__doPostBack(&#39;ctl00$PageContent$RepeatGrLabel&#39;,&#39;&#39;)">เรียนซ้ำ</a>    
+                        </th><th class="thc" scope="col" style="text-align:center;vertical-align:middle;"><a id="ctl00_PageContent_GradeLabel" title="Sort by Grade" href="javascript:__doPostBack(&#39;ctl00$PageContent$GradeLabel&#39;,&#39;&#39;)">เกรด</a></th></tr>
+<tr summary="Footer"><td class="ttc" scope="row" colspan="19">	<table class="dv" cellpadding="0" cellspacing="0" border="0"><tr><td class="panelTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="panelTLSpace" alt="" /></td><td class="panelT"></td><td class="panelTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="panelTRSpace" alt="" /></td></tr><tr><td class="panelL"></td><td><table class="dBody" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td class="tre"><table id="View_TransSubGPATableControlGrid" cellpadding="0" cellspacing="0" border="0" width="100%" onkeydown="captureUpDownKey(this, event)"><tr class="tch"><th class="thc" scope="col">
+                           ประเภทวิชา    
+                        </th><th class="thc" scope="col">
+                           ที่เรียน/ที่ได้</th><th class="thc" scope="col">เฉลี่ย</th><th class="thc" scope="col">สะสม ที่เรียน/ที่ได้</th><th class="thc" scope="col">
+                           เฉลี่ยสะสม</th></tr>
+<tr summary="Footer"><td class="ttc" scope="row" colspan="5"><table><tr><td class="thc" scope="row"><span id="ctl00_PageContent_LabelGPA">GPA</span></td><td class="ttc" scope="row"></td></tr><tr><td class="thc" scope="row"><span id="ctl00_PageContent_LabelLA">อันดับที่/ห้อง</span></td><td class="ttc" scope="row"></td></tr><tr><td class="thc" scope="row"><span id="ctl00_PageContent_LabelCLA">อันดับที่/ระดับ</span></td><td class="ttc" scope="row"></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td><td class="panelR"></td></tr></table>
+	<input type="hidden" name="ctl00$PageContent$View_TransSubGPATableControl_PostbackTracker" id="ctl00_PageContent_View_TransSubGPATableControl_PostbackTracker" />
+
+</td></tr></table>
+</td></tr></table>
+
+	</div></td><td class="panelR"></td></tr></table>
+	<input type="hidden" name="ctl00$PageContent$View_TransScoreSubTableControl_PostbackTracker" id="ctl00_PageContent_View_TransScoreSubTableControl_PostbackTracker" />
+
+</td></tr></table>
+    
+</div>
+</div>
+    <div id="detailPopup" class="detailRolloverPopup" onmouseout="detailRolloverPopupClose();" onmouseover="clearTimeout(gPopupTimer);"></div>
+                   <div class="QDialog" id="dialog" style="display:none;">
+                          <iframe id="QuickPopupIframe" style="width:100%;height:100%;border:none"></iframe>
+                   </div>                  
+    <div id="ctl00_PageContent_ValidationSummary1" style="color:Red;display:none;">
+
+</div>
+</td><td class="marginR">&nbsp;</td></tr><tr><td class="marginBL">&nbsp;</td><td class="pcB" colspan="2">
+<table cellpadding="0" cellspacing="0" border="0"><tr><td class="footer">Copyright © 2015 Computer Engineering Co.,Ltd. All rights reserved.
+<br>
+<a href='https://play.google.com/store/apps/details?id=com.Sgss&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="border: 0;" width="25%" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a></td><td class="footer"></td></tr></table></td><td class="marginBR">&nbsp;</td></tr></table>
+</td><td class="pageR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageRSpace" alt="" /></td></tr><tr><td colspan="3"><table cellpadding="0" cellspacing="0" border="0"><tr><td class="pageBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageBLSpace" alt="" /></td><td class="pageB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageBSpace" alt="" /></td><td class="pageBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageBRSpace" alt="" /></td></tr></table>
+</td></tr></table>
+        
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ctl00_PageContent_ValidationSummary1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_PageContent_ValidationSummary1 = document.all ? document.all["ctl00_PageContent_ValidationSummary1"] : document.getElementById("ctl00_PageContent_ValidationSummary1");
+ctl00_PageContent_ValidationSummary1.headertext = "โปรดแก้ไขข้อผิดพลาดดังต่อไปนี้:";
+ctl00_PageContent_ValidationSummary1.showmessagebox = "True";
+ctl00_PageContent_ValidationSummary1.showsummary = "False";
+//]]>
+</script>
+
+<script language="javascript" type="text/javascript">var ctrl = ""; function pageLoadedHandler1(sender, args) { setTimeout("setTimeoutFocus()", 1000); }function setTimeoutFocus() { setFocus(ctrl); }Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(pageLoadedHandler1);</script>
+<script type="text/javascript">
+//<![CDATA[
+openPopupPage('QPageSize');(function() {var fn = function() {$get("ctl00_scriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ctl00_PageContent_ValidationSummary1');
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_PageContent_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_PageContent_UpdatePanel1_UpdateProgress1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_PageContent_View_TransScoreSubPanelExtender_ClientState","CollapseControlID":"ctl00_PageContent_View_TransScoreSubIcon","CollapsedImage":"http://sgs6.bopp-obec.info/sgss/images/icon_panelexpand.gif","ExpandControlID":"ctl00_PageContent_View_TransScoreSubIcon","ExpandedImage":"http://sgs6.bopp-obec.info/sgss/images/icon_panelcollapse.gif","ImageControlID":"ctl00_PageContent_View_TransScoreSubIcon","SuppressPostBack":true,"id":"ctl00_PageContent_View_TransScoreSubPanelExtender"}, null, null, $get("ctl00_PageContent_View_TransScoreSubTableControlCollapsibleRegion"));
+});
+//]]>
+</script>
+</form>
+    </body>
+</html>
+          
