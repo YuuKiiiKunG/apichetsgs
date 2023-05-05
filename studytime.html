@@ -1,0 +1,652 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=10"><meta name="keywords" content="Sgss"><title>
+	ขาดเรียน
+</title><link href="BaseStyles.css" type="text/css" rel="stylesheet"><link href="Styles.css" type="text/css" rel="stylesheet"><script src="chrome-extension://njgehaondchbmjmajphnhlojfnbfokng/js/contentScripts/dom.js"></script></head>
+    <body id="ctl00_Body1" class="pBack">
+        <form name="aspnetForm" method="post" action="./Show-View-TranscriptsAttend-Table.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_scriptManager1_HiddenField" id="ctl00_scriptManager1_HiddenField" value=";;AjaxControlToolkit, Version=4.1.60919.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e:th-TH:ee051b62-9cd6-49a5-87bb-93c07bc43d63:5546a2b:475a4ef5:d2e10b12:effe2a26:37e2e5c9:5a682656:12bbc599:7e63a579">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2ODEyODE5MzcPFCsAAxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgFoZBYCZg9kFgICAw9kFgICAQ9kFgYCAw9kFhYCAQ8PFgIeCEltYWdlVXJsBbMBLi4vU2hhcmVkL0V4cG9ydEZpZWxkVmFsdWUuYXNweD9UYWJsZT1va0klMmZuV0w0T3FLRHBuUlU4ZHRiJTJiQSUzZCUzZCZGaWVsZD1qamZRbmkzRmElMmZRJTNkJlJlY29yZD1vYWhGNmpzcG5SU0xmMk1YWHYybTJWU3RMZW9WVjB5T3FuYjhhMExiZXptZTRzWnJLOUpiSU9lZ3JoMEx1SWNVc3hxODhGSWdDWmclM2RkZAIDDw8WAh4HVmlzaWJsZWhkZAIFDxYCHgRUZXh0BSHguYTguJ7guKjguLLguKXguLXguJ7guLTguJfguKLguLJkAgkPEA8WBB4LXyFEYXRhQm91bmRnHwJoZGQWAGQCCw8PFgIfAmhkZAINDxAPFgIfBGdkEBUDDUVsZWN0cmljIEJsdWULRmlyZSBFbmdpbmUMR3Jhbm55IEFwcGxlFQMNRWxlY3RyaWMgQmx1ZQtGaXJlIEVuZ2luZQxHcmFubnkgQXBwbGUUKwMDZ2dnFgECAmQCEQ8PFgQeB1Rvb2xUaXAFHuC4reC4reC4geC4iOC4suC4geC4o+C4sOC4muC4mh8DBR7guK3guK3guIHguIjguLLguIHguKPguLDguJrguJpkZAITDw8WBB8BBR4uLi9JbWFnZXMvU2lnbkluQmFyU2lnbk91dC5naWYfBQUe4Lit4Lit4LiB4LiI4Liy4LiB4Lij4Liw4Lia4LiaFgQeC29ubW91c2VvdmVyBS10aGlzLnNyYz0nLi4vSW1hZ2VzL1NpZ25JbkJhclNpZ25PdXRPdmVyLmdpZiceCm9ubW91c2VvdXQFKXRoaXMuc3JjPScuLi9JbWFnZXMvU2lnbkluQmFyU2lnbk91dC5naWYnZAIVDw8WAh8CaGRkAhcPDxYEHwUFG+C4nuC4tOC4oeC4nuC5jOC4q+C4meC5ieC4sh8CaGRkAh0PDxYEHwMFMiDguK3guKDguLTguYDguIrguKnguJDguYwg4LmA4LiW4Lij4Lin4Lij4Lij4LiT4LmMHwJnZGQCBA8PFgIeA19IUwUNTWVudTNNZW51SXRlbWQWBAIJDw8WAh8CaGRkAgsPDxYCHwJnZGQCBQ9kFgQCAw9kFgJmD2QWAgIBDxYIHipWaWV3X1RyYW5zY3JpcHRzQXR0ZW5kVGFibGVDb250cm9sX09yZGVyQnkFoAc8TmFtZSBTZWxjdFR5cGU9Ik9yZEJ5Q29scyI+PEV4cEZLQ29scz5UcnVlPC9FeHBGS0NvbHM+PENhc2VTZW5zPkZhbHNlPC9DYXNlU2Vucz48T3JkQ29scz48T3JkQ29sPjxPcmRlckRpcj5EZXNjPC9PcmRlckRpcj48Q29sIHR1PSJTZ3NzLkJ1c2luZXNzLlZpZXdfVHJhbnNjcmlwdHNBdHRlbmRWaWV3LCBBcHBfQ29kZS5ja3F5cndoeiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiIGNVTj0iVmlld19UcmFuc2NyaXB0c0F0dGVuZF8ueFlyIiAvPjwvT3JkQ29sPjxPcmRDb2w+PE9yZGVyRGlyPkRlc2M8L09yZGVyRGlyPjxDb2wgdHU9IlNnc3MuQnVzaW5lc3MuVmlld19UcmFuc2NyaXB0c0F0dGVuZFZpZXcsIEFwcF9Db2RlLmNrcXlyd2h6LCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIgY1VOPSJWaWV3X1RyYW5zY3JpcHRzQXR0ZW5kXy54VHIiIC8+PC9PcmRDb2w+PE9yZENvbD48T3JkZXJEaXI+QXNjPC9PcmRlckRpcj48Q29sIHR1PSJTZ3NzLkJ1c2luZXNzLlZpZXdfVHJhbnNjcmlwdHNBdHRlbmRWaWV3LCBBcHBfQ29kZS5ja3F5cndoeiwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiIGNVTj0iVmlld19UcmFuc2NyaXB0c0F0dGVuZF8uY2NDT0RFIiAvPjwvT3JkQ29sPjxPcmRDb2w+PE9yZGVyRGlyPkRlc2M8L09yZGVyRGlyPjxDb2wgdHU9IlNnc3MuQnVzaW5lc3MuVmlld19UcmFuc2NyaXB0c0F0dGVuZFZpZXcsIEFwcF9Db2RlLmNrcXlyd2h6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lGQCEw8WAh8DBQExZAIVDxYCHwMFBiZuYnNwO2QCGA9kFgICAQ8WBh8PBTE8a2V5Pjxjdj48Yz5UckF0dElEPC9jPjx2PjQzMzAyODQwPC92PjwvY3Y+PC9rZXk+HxAFBUZhbHNlHxFkFhYCAQ8WAh8DBQQyNTYzZAIDDxYCHwMFATFkAgUPFgIfAwUF4LihLjRkAgcPFgIfAwUI4LiqMzExMDNkAgkPFgIfAwUy4Lib4Lij4Liw4Lin4Lix4LiV4Li04Lio4Liy4Liq4LiV4Lij4LmM4LmE4LiX4LiiIDFkAgsPFgIfAwVG4LiZ4Liy4LiH4Liq4Liy4Lin4LiI4Liy4Lij4Li44LiX4Lij4Lij4Lio4LiZ4LmMIOC5geC4quC4meC4qOC4tOC4o+C4tGQCDQ8WAh8DBQMwLjVkAg8PFgIfAwUaMTQg4LiV4Li44Lil4Liy4LiE4LihIDI1NjNkAhEPFgIfAwUJ4LiC4Liy4LiUZAITDxYCHwMFATFkAhUPFgIfAwUGJm5ic3A7ZAIZD2QWAgIBDxYGHw8FMTxrZXk+PGN2PjxjPlRyQXR0SUQ8L2M+PHY+NDMzMDIyNjg8L3Y+PC9jdj48L2tleT4fEAUFRmFsc2UfEWQWFgIBDxYCHwMFBDI1NjNkAgMPFgIfAwUBMWQCBQ8WAh8DBQXguKEuNGQCBw8WAh8DBQjguKozMTEwM2QCCQ8WAh8DBTLguJvguKPguLDguKfguLHguJXguLTguKjguLLguKrguJXguKPguYzguYTguJfguKIgMWQCCw8WAh8DBUbguJnguLLguIfguKrguLLguKfguIjguLLguKPguLjguJfguKPguKPguKjguJnguYwg4LmB4Liq4LiZ4Lio4Li04Lij4Li0ZAINDxYCHwMFAzAuNWQCDw8WAh8DBR0yMiDguIHguKPguIHguI7guLLguITguKEgMjU2M2QCEQ8WAh8DBQnguILguLLguJRkAhMPFgIfAwUBMWQCFQ8WAh8DBQYmbmJzcDtkAgUPDxYCHgpIZWFkZXJUZXh0BVvguYLguJvguKPguJTguYHguIHguYnguYTguILguILguYnguK3guJzguLTguJTguJ7guKXguLLguJTguJTguLHguIfguJXguYjguK3guYTguJvguJnguLXguYk6ZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgUFG2N0bDAwJF9QYWdlSGVhZGVyJF9TSU9JbWFnZQU5Y3RsMDAkUGFnZUNvbnRlbnQkVmlld19UcmFuc2NyaXB0c0F0dGVuZEV4cG9ydEV4Y2VsQnV0dG9uBTNjdGwwMCRQYWdlQ29udGVudCRWaWV3X1RyYW5zY3JpcHRzQXR0ZW5kUmVzZXRCdXR0b24FQGN0bDAwJFBhZ2VDb250ZW50JFZpZXdfVHJhbnNjcmlwdHNBdHRlbmRQYWdpbmF0aW9uJF9QcmV2aW91c1BhZ2UFPGN0bDAwJFBhZ2VDb250ZW50JFZpZXdfVHJhbnNjcmlwdHNBdHRlbmRQYWdpbmF0aW9uJF9OZXh0UGFnZVF5X+Jxz97aZNdAelAOzHF7X4ov5mmS/8WcG6HmThw+">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/sgss/WebResource.axd?d=wQNoR4cuMGNh5BvxzfU7LLJx093ez-SZd7BvwuIQDlAAwsxvu_rV9UmVZit0cLms7nlkTXDOsdLxjTJhMJW-AHBiO8rUvph0LSwsqAYwrA01&amp;t=637100518460000000" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript" src="/sgss/ApplicationWebForm.js"></script><script language="javascript" type="text/javascript" src="/sgss/SetFocus.js"></script><script language="javascript" type="text/javascript" src="/sgss/ApplicationWebUIValidation.js"></script><script language="javascript" type="text/javascript" src="/sgss/JQuery.js"></script><script language="javascript" type="text/javascript" src="/sgss/LegacyFunctions.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"th-TH","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"฿","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["๐","๑","๒","๓","๔","๕","๖","๗","๘","๙"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402275599999)\/","AlgorithmType":1,"Eras":[1],"TwoDigitYearMax":2572,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"d MMMM yyyy H:mm:ss","LongDatePattern":"d MMMM yyyy","LongTimePattern":"H:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"d/M/yyyy","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."],"ShortestDayNames":["อ","จ","อ","พ","พ","ศ","ส"],"DayNames":["อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์"],"AbbreviatedMonthNames":["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค.",""],"MonthNames":["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม",""],"IsReadOnly":true,"NativeCalendarName":"พุทธศักราช","AbbreviatedMonthGenitiveNames":["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค.",""],"MonthGenitiveNames":["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม",""]},"eras":[1,"พ.ศ.",null,-543]};//]]>
+</script>
+
+<script src="/sgss/ScriptResource.axd?d=-ZGCOdK82Ev_Sz_CMxqoZJ0pN56A1Rdy2Oc638MAvvhmt0zYSMaXoIy-AQ7m8r-LTZ2QyUF5UNTCF-kVTPUVVniV_rQPALJ739QNKsljyV8VERpnn8-nQEM-Z8NWEWceI8FRk9NbMuI4pXIFGJWX4A2&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/sgss/ScriptResource.axd?d=a3qm6e5uliLmamGKRlCP4d23Lgw0Z_vbVm90LqTzH6NNHhJUtVkAdiecWtjLJF0XHIha3YzVO_EqNeS6MiJF2Rd3cOvm52QNgHzvDUlhUevIaDmpTFYqIQDsbJJ0hW5mquIAc_TNRKO7teTDb-J3NA2&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/sgss/View_TranscriptsAttend/Show-View-TranscriptsAttend-Table.aspx?_TSM_HiddenField_=ctl00_scriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.60919.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3ath-TH%3aee051b62-9cd6-49a5-87bb-93c07bc43d63%3a5546a2b%3a475a4ef5%3ad2e10b12%3aeffe2a26%3a37e2e5c9%3a5a682656%3a12bbc599%3a7e63a579" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+SortListItems:function(str,succeededCallback, failedCallback, userContext) {
+/// <param name="str" type="String">System.String</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'SortListItems',false,{str:str},succeededCallback,failedCallback,userContext); },
+GetRecordFieldValue:function(tableName,recordID,columnName,fieldName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,succeededCallback, failedCallback, userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="fieldName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'GetRecordFieldValue',false,{tableName:tableName,recordID:recordID,columnName:columnName,fieldName:fieldName,title:title,closeBtnText:closeBtnText,persist:persist,popupWindowHeight:popupWindowHeight,popupWindowWidth:popupWindowWidth,popupWindowScrollBar:popupWindowScrollBar},succeededCallback,failedCallback,userContext); },
+GetImage:function(tableName,recordID,columnName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,succeededCallback, failedCallback, userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'GetImage',false,{tableName:tableName,recordID:recordID,columnName:columnName,title:title,closeBtnText:closeBtnText,persist:persist,popupWindowHeight:popupWindowHeight,popupWindowWidth:popupWindowWidth,popupWindowScrollBar:popupWindowScrollBar},succeededCallback,failedCallback,userContext); },
+GetAutoCompletionList_View_TranscriptsAttendSearch:function(prefixText,count,succeededCallback, failedCallback, userContext) {
+/// <param name="prefixText" type="String">System.String</param>
+/// <param name="count" type="Number">System.Int32</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'GetAutoCompletionList_View_TranscriptsAttendSearch',false,{prefixText:prefixText,count:count},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) {
+PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { 
+/// <value type="String" mayBeNull="true">The service url.</value>
+return PageMethods._staticInstance.get_path();}
+PageMethods.set_timeout = function(value) {
+PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { 
+/// <value type="Number">The service timeout.</value>
+return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { 
+PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { 
+/// <value mayBeNull="true">The service default user context.</value>
+return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { 
+ PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { 
+/// <value type="Function" mayBeNull="true">The service default succeeded callback.</value>
+return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { 
+PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { 
+/// <value type="Function" mayBeNull="true">The service default failed callback.</value>
+return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { 
+/// <value type="Boolean">Specifies whether the service supports JSONP for cross domain calling.</value>
+return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { 
+/// <value type="String">Specifies the parameter name that contains the callback function name for a JSONP request.</value>
+return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("Show-View-TranscriptsAttend-Table.aspx");
+PageMethods.SortListItems= function(str,onSuccess,onFailed,userContext) {
+/// <param name="str" type="String">System.String</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.SortListItems(str,onSuccess,onFailed,userContext); }
+PageMethods.GetRecordFieldValue= function(tableName,recordID,columnName,fieldName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="fieldName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.GetRecordFieldValue(tableName,recordID,columnName,fieldName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext); }
+PageMethods.GetImage= function(tableName,recordID,columnName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext) {
+/// <param name="tableName" type="String">System.String</param>
+/// <param name="recordID" type="String">System.String</param>
+/// <param name="columnName" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="closeBtnText" type="String">System.String</param>
+/// <param name="persist" type="Boolean">System.Boolean</param>
+/// <param name="popupWindowHeight" type="Number">System.Int32</param>
+/// <param name="popupWindowWidth" type="Number">System.Int32</param>
+/// <param name="popupWindowScrollBar" type="Boolean">System.Boolean</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.GetImage(tableName,recordID,columnName,title,closeBtnText,persist,popupWindowHeight,popupWindowWidth,popupWindowScrollBar,onSuccess,onFailed,userContext); }
+PageMethods.GetAutoCompletionList_View_TranscriptsAttendSearch= function(prefixText,count,onSuccess,onFailed,userContext) {
+/// <param name="prefixText" type="String">System.String</param>
+/// <param name="count" type="Number">System.Int32</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.GetAutoCompletionList_View_TranscriptsAttendSearch(prefixText,count,onSuccess,onFailed,userContext); }
+function WebForm_OnSubmit() {
+null;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="671ACCF8">
+</div>
+<input type="hidden" name="isd_geo_location" id="isd_geo_location" value="<location>
+<latitude>37.40</latitude>
+<longitude>-121.93</longitude>
+<unit>meters</unit>
+<error>LOCATION_ERROR_DISABLED</error>
+</location>
+">
+<script type="text/javascript">
+<!--
+ISD_GeolocationInit();
+//-->
+</script>
+            <input name="ctl00$pageLeftCoordinate" type="hidden" id="ctl00_pageLeftCoordinate"><input name="ctl00$pageTopCoordinate" type="hidden" id="ctl00_pageTopCoordinate">
+            <span id="ctl00_PageSettings"></span>
+            <script language="JavaScript" type="text/javascript">clearRTL()</script>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'aspnetForm', ['tctl00$PageContent$UpdatePanel1',''], [], ['ctl00$PageContent$View_TranscriptsAttendExportExcelButton',''], 90, 'ctl00');
+//]]>
+</script>
+
+          <script language="JavaScript" type="text/javascript">avoidTabFocused();</script><table cellpadding="0" cellspacing="0" border="0" class="pWrapper"><tbody><tr><td colspan="3"><table border="0" cellpadding="0" cellspacing="0" style="width:100%;"><tbody><tr><td class="pageTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageTLSpace" alt=""></td><td class="pageT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageTSpace" alt=""></td><td class="pageTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageTRSpace" alt=""></td></tr></tbody></table>
+</td></tr><tr><td class="pageL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageLSpace" alt=""></td><td class="pageC"><table border="0" cellpadding="0" cellspacing="0" style="width: 100%"><tbody><tr><td class="marginTL">&nbsp;</td><td class="pcT" colspan="2"><table cellpadding="0" cellspacing="0" border="0" width="100%" class="logoBG"><tbody><tr><td rowspan="3"><img id="ctl00__PageHeader__Logo" src="images/PhaisaleePittaya.jpg" style="height:50px;width:50px;border-width:0px;"></td><td rowspan="3"></td><td class="NewLogo" rowspan="3">ไพศาลีพิทยา</td><td class="fls" style="vertical-align:top;text-align:left;"></td><td class="fls" style="vertical-align:top;text-align:left;"></td><td class="fls" style="vertical-align:top;text-align:left;"></td><td style="vertical-align:top;" class="flsH"></td><td style="text-align:right; vertical-align:top;" rowspan="3"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td style="width:100%;"></td><td><img id="ctl00__PageHeader__LeftImage" alt="" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarL.gif" style="height:23px;width:36px;border-width:0px;"></td><td class="signInBar"></td><td class="signInBar"></td><td class="signInBar"><select name="ctl00$_PageHeader$ThemeSelector" onchange="javascript:setTimeout('__doPostBack(\'ctl00$_PageHeader$ThemeSelector\',\'\')', 0)" id="ctl00__PageHeader_ThemeSelector" title="เปลี่ยนธีม" class="Filter_Input">
+	<option selected="selected" value="Realme UI" id="ThemeSelectorRealmeUI_AppleListItem">Realme UI</option>
+
+</select></td><td class="signInBar"><img id="ctl00__PageHeader__Divider0" alt="" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarDivider.gif" style="border-width:0px;"></td><td class="signInBar"><a id="ctl00__PageHeader__SignIn" title="ออกจากระบบ" href="javascript:__doPostBack('ctl00$_PageHeader$_SignIn','')">ออกจากระบบ</a></td><td class="signInBar"><input type="image" name="ctl00$_PageHeader$_SIOImage" id="ctl00__PageHeader__SIOImage" title="ออกจากระบบ" alt="SignInButton" onmouseover="this.src='http://sgs6.bopp-obec.info/sgss/Images/SignInBarSignOutOver.gif'" onmouseout="this.src='http://sgs6.bopp-obec.info/sgss/Images/SignInBarSignOut.gif'" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarSignOut.gif" style="border-width:0px;"></td><td class="signInBar"></td><td class="signInBar"><a href="javascript:printPage();"> 
+</a></td><td><img id="ctl00__PageHeader__RightImage" alt="" src="http://sgs6.bopp-obec.info/sgss/Images/SignInBarR.gif" style="height:23px;width:36px;border-width:0px;"></td></tr><tr><td></td><td></td><td class="signInBarStatus" colspan="8"><span id="ctl00__PageHeader__UserStatusLbl"> อภิเชษฐ์ เถรวรรณ์</span></td><td class="signInBarStatus"></td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr><tr><td class="fls" style="vertical-align:top;"></td><td class="fls" style="vertical-align:top;"></td><td class="fls" style="vertical-align:top;"></td><td class="fls" style="vertical-align:top;"></td></tr><tr><td></td><td></td><td></td><td class="fls"></td></tr></tbody></table></td><td class="marginTR">&nbsp;</td></tr><tr><td class="marginmL">&nbsp;</td><td class="pcmL"></td><td class="pcmC">
+<table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="menus"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><img src="http://sgs6.bopp-obec.info/sgss/Images/menuEdgeL.gif" alt=""></td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__ข_าวประชาส_มพ_นธ_MenuItem__Button" title="ข่าวประชาสัมพันธ์" class="menu" href="javascript:__doPostBack('ctl00$_Menu$_ข_าวประชาส_มพ_นธ_MenuItem$_Button','')">ข่าวประชาสัมพันธ์</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__Menu1MenuItem__Button" title="ประวัตินักเรียน" class="menu" href="studentinfo.html">ประวัตินักเรียน</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						
+						
+<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="moTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="moT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="moTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="moL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="moC"><a id="ctl00__Menu__Menu3MenuItemHilited__Button" title="ตรวจสอบเวลาเรียน" class="menu" href="studytime.html">ตรวจสอบเวลาเรียน</a></td><td class="moR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="moBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="moB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="moBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__Menu2MenuItem__Button" title="ผลการเรียน" class="menu" href="javascript:__doPostBack('ctl00$_Menu$_Menu2MenuItem$_Button','')">ผลการเรียน</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__ผลการเร_ยนไม_ผ_านMenuItem__Button" title="ผลการเรียนไม่ผ่าน" class="menu" href="javascript:__doPostBack('ctl00$_Menu$_ผลการเร_ยนไม_ผ_านMenuItem$_Button','')">ผลการเรียนไม่ผ่าน</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__SubjectsElectionMenuItem__Button" title="เลือกเสรี" class="menu" href="javascript:__doPostBack('ctl00$_Menu$_SubjectsElectionMenuItem$_Button','')">เลือกเสรี</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__พ_มพ_คำร_องสอบแก_ต_วMenuItem__Button" title="พิมพ์คำร้องสอบแก้ตัว" class="menu" href="javascript:__doPostBack('ctl00$_Menu$_พ_มพ_คำร_องสอบแก_ต_วMenuItem$_Button','')">พิมพ์คำร้องสอบแก้ตัว</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__พ_มพ_คำร_องขอใบร_บรองMenuItem__Button" title="พิมพ์คำร้องขอใบรับรอง" class="menu" href="javascript:__doPostBack('ctl00$_Menu$_พ_มพ_คำร_องขอใบร_บรองMenuItem$_Button','')">พิมพ์คำร้องขอใบรับรอง</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__พ_มพ__ปพ_6MenuItem__Button" title="พิมพ์ ปพ.6" class="menu" href="javascript:__doPostBack('ctl00$_Menu$_พ_มพ__ปพ_6MenuItem$_Button','')">พิมพ์ ปพ.6</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td>
+						<table cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);" style="cursor: pointer;"><tbody><tr><td class="mTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td><td class="mT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="2" alt=""></td><td class="mTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="5" width="5" alt=""></td></tr><tr><td class="mL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td><td class="mC"><a id="ctl00__Menu__พ_มพ__ปพ_1MenuItem__Button" title="พิมพ์ ปพ.1" class="menu" href="guskung.html">พิมพ์ ปพ.1</a></td><td class="mR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="14" width="5" alt=""></td></tr><tr><td class="mBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td><td class="mB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="2" alt=""></td><td class="mBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="3" width="5" alt=""></td></tr></tbody></table>
+						
+					</td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/menuEdgeR.gif" alt=""></td></tr></tbody></table>
+</td></tr><tr><td class="mbbg"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="1" width="1" alt=""></td></tr></tbody></table></td><td class="marginmR">&nbsp;</td></tr><tr><td class="marginL">&nbsp;</td><td class="pcL"></td><td class="pcC">
+    <a id="StartOfPageContent"></a>
+    <div id="scrollRegion" class="scrollRegion"><div id="ctl00_PageContent_UpdatePanel1_UpdateProgress1" style="display:none;" role="status" aria-hidden="true">
+	
+				<div class="ajaxUpdatePanel">
+				</div>
+				<div style="position:absolute; padding:30px;" class="updatingContainer">
+					<img src="http://sgs6.bopp-obec.info/sgss/Images/updating.gif" alt="Updating">
+				</div>
+			
+</div>
+		<div id="ctl00_PageContent_UpdatePanel1">
+	
+
+                <table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td>
+                        	<table class="dv" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="panelTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="panelTLSpace" alt=""></td><td class="panelT"></td><td class="panelTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="panelTRSpace" alt=""></td></tr><tr><td class="panelHeaderL"></td><td class="dh">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%"><tbody><tr><td class="dhel"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt=""></td><td class="dhb"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="dht" valign="middle"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td>ขาดเรียน</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td><td class="dher"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt=""></td></tr></tbody></table>
+
+                </td><td class="panelHeaderR"></td></tr><tr><td class="panelL"></td><td>
+                  <div id="ctl00_PageContent_View_TranscriptsAttendTableControlCollapsibleRegion">
+		<table class="dBody" cellpadding="0" cellspacing="0" border="0" width="100%"><tbody><tr><td>
+                        <table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="fila">ค้นหาจาก</td><td><div onkeypress="return (!Fev_HandleFormSubmitKeyPress('ctl00$PageContent$View_TranscriptsAttendSearchButton', event));">
+<input name="ctl00$PageContent$View_TranscriptsAttendSearch" type="text" size="50" id="ctl00_PageContent_View_TranscriptsAttendSearch" class="Search_InputHint" autocomplete="off">
+
+ 
+
+<input type="hidden" name="ctl00$PageContent$TextBoxWatermark_ClientState" id="ctl00_PageContent_TextBoxWatermark_ClientState"></div>
+</td><td class="fila">
+<table class="buttonPadding" cellspacing="0" cellpadding="0" border="0" onmouseover="this.style.cursor='pointer'; return true;" onclick="clickLinkButtonText(this, event);"><tbody><tr><td class="bTL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bTLSpace"></td><td class="bT"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bTSpace"></td><td class="bTR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bTRSpace"></td></tr><tr><td class="bL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bLSpace"></td><td class="bC"><a id="ctl00_PageContent_View_TranscriptsAttendSearchButton__Button" title="ไป" class="button_link" href="javascript:__doPostBack('ctl00$PageContent$View_TranscriptsAttendSearchButton$_Button','')">ไป</a></td><td class="bR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bRSpace"></td></tr><tr><td class="bBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bBLSpace"></td><td class="bB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bBSpace"></td><td class="bBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" class="bBRSpace"></td></tr></tbody></table></td></tr><tr><td class="fila">ระดับชั้น</td><td><select name="ctl00$PageContent$ClassLevelIDFilter" onchange="javascript:setTimeout('__doPostBack(\'ctl00$PageContent$ClassLevelIDFilter\',\'\')', 0)" id="ctl00_PageContent_ClassLevelIDFilter" class="Filter_Input" onkeypress="dropDownListTypeAhead(this,false)">
+			<option selected="selected" value="--ANY--">ทั้งหมด</option>
+			<option value="21">ม.1</option>
+			<option value="22">ม.2</option>
+			<option value="23">ม.3</option>
+			<option value="34">ม.4</option>
+			<option value="35">ม.5</option>
+			<option value="36">ม.6</option>
+			<option value="41">ปวช.1</option>
+			<option value="42">ปวช.2</option>
+			<option value="43">ปวช.3</option>
+
+		</select> </td><td class="fila"></td></tr></tbody></table>
+
+                        </td></tr><tr><td class="pr" style="vertical-align: top">
+                      <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;"><tbody><tr><td><img src="http://sgs6.bopp-obec.info/sgss/Images/paginationRowEdgeL.gif" alt=""></td><td class="prbbc"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeL.gif" alt=""></td><td class="prbbc"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarDividerL.gif" alt=""></td><td class="prbbc"><input type="image" name="ctl00$PageContent$View_TranscriptsAttendExportExcelButton" id="ctl00_PageContent_View_TranscriptsAttendExportExcelButton" title="ส่งออกเป็น excel" onmouseout="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarExcelExport.gif'" onmouseover="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarExcelExportOver.gif'" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarExcelExport.gif" style="border-width:0px;"></td><td class="prbbc"><input type="image" name="ctl00$PageContent$View_TranscriptsAttendResetButton" id="ctl00_PageContent_View_TranscriptsAttendResetButton" title="ยกเลิกการกรองข้อมูล" onmouseout="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarReset.gif'" onmouseover="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarResetOver.gif'" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarReset.gif" style="border-width:0px;"></td><td class="prbbc"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarDividerR.gif" alt=""></td><td class="prspace"><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeR.gif" alt=""></td><td class="prbbc" style="text-align:right"></td><td class="prbbc"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" alt="" style="width: 10px"></td><td class="pra"><table cellspacing="0" cellpadding="0" border="0" style="width: 100%"><tbody><tr><td style="width: 50%"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" width="10" height="1" alt=""></td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeL.gif" alt=""></td><td></td><td><input type="image" name="ctl00$PageContent$View_TranscriptsAttendPagination$_PreviousPage" id="ctl00_PageContent_View_TranscriptsAttendPagination__PreviousPage" disabled="disabled" title="หน้าก่อน" onmouseout="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarPrevious.gif'" onmouseover="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarPreviousOver.gif'" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarPrevious.gif" style="border-width:0px;"></td><td class="prbg"><div onkeypress="return (!Fev_HandleFormSubmitKeyPress('ctl00$PageContent$View_TranscriptsAttendPagination$_PageSizeButton', event));"><input name="ctl00$PageContent$View_TranscriptsAttendPagination$_CurrentPage" type="text" value="1" maxlength="10" id="ctl00_PageContent_View_TranscriptsAttendPagination__CurrentPage" class="Pagination_Input" size="5"></div></td><td class="prbg">ของ <b><span id="ctl00_PageContent_View_TranscriptsAttendPagination__TotalPages">1</span></b></td><td><input type="image" name="ctl00$PageContent$View_TranscriptsAttendPagination$_NextPage" id="ctl00_PageContent_View_TranscriptsAttendPagination__NextPage" disabled="disabled" title="หน้าถัดไป" onmouseout="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarNext.gif'" onmouseover="this.src='http://sgs6.bopp-obec.info/sgss/Images/ButtonBarNextOver.gif'" src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarNext.gif" style="border-width:0px;"></td><td></td><td class="prbg"><div onkeypress="return (!Fev_HandleFormSubmitKeyPress('ctl00$PageContent$View_TranscriptsAttendPagination$_PageSizeButton', event));"><input name="ctl00$PageContent$View_TranscriptsAttendPagination$_PageSize" type="text" value="50" maxlength="5" id="ctl00_PageContent_View_TranscriptsAttendPagination__PageSize" class="Pagination_Input" size="5"></div></td><td class="prbg">/</td><td class="prbggo"><a id="ctl00_PageContent_View_TranscriptsAttendPagination__PageSizeButton" class="button_link" href="javascript:__doPostBack('ctl00$PageContent$View_TranscriptsAttendPagination$_PageSizeButton','')">หน้า</a></td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/ButtonBarEdgeR.gif" alt=""></td><td style="width: 50%"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" width="10" height="1" alt=""></td></tr></tbody></table>
+            <!--To change the position of the pagination control, please search for "prspace" on the Online Help for instruction. --></td><td><img src="http://sgs6.bopp-obec.info/sgss/Images/paginationRowEdgeR.gif" alt=""></td></tr></tbody></table>
+</td></tr><tr><td class="tre"><table id="View_TranscriptsAttendTableControlGrid" cellpadding="0" cellspacing="0" border="0" width="100%" onkeydown="captureUpDownKey(this, event)"><tbody><tr class="tch"><th class="thc"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" height="1" width="1" alt=""></th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_xYrLabel" title="Sort by xYr" href="javascript:__doPostBack('ctl00$PageContent$xYrLabel','')">ปีการศึกษา</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_xTrLabel" title="Sort by xTr" href="javascript:__doPostBack('ctl00$PageContent$xTrLabel','')">ภาคเรียน</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_xClassLevelIDLabel" title="Sort by xClassLevelID" href="javascript:__doPostBack('ctl00$PageContent$xClassLevelIDLabel','')">ชั้น</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_CodeLabel" title="Sort by Code" href="javascript:__doPostBack('ctl00$PageContent$CodeLabel','')">วิชา</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_TitlesLabel" title="Sort by Titles" href="javascript:__doPostBack('ctl00$PageContent$TitlesLabel','')">ชื่อวิชา</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_ccTeacIDLabel" title="Sort by ccTeacID" href="javascript:__doPostBack('ctl00$PageContent$ccTeacIDLabel','')">ผู้สอน</a></th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_CreditsLabel" title="Sort by Credits" href="javascript:__doPostBack('ctl00$PageContent$CreditsLabel','')">นก.</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_AttendDateLabel" title="Sort by AttendDate" href="javascript:__doPostBack('ctl00$PageContent$AttendDateLabel','')">วันที่</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_AttendIDLabel" title="Sort by AttendID" href="javascript:__doPostBack('ctl00$PageContent$AttendIDLabel','')">ขาดเรียน</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_PeriodLabel" title="Sort by Period" href="javascript:__doPostBack('ctl00$PageContent$PeriodLabel','')">จำนวนคาบ</a>    
+                        </th><th class="thc" scope="col">
+                           <a id="ctl00_PageContent_NoteLabel" title="Sort by Note" href="javascript:__doPostBack('ctl00$PageContent$NoteLabel','')">หมายเหตุ</a>    
+                        </th></tr>		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ค33102 </td><td class="ttc">คณิตศาสตร์พื้นฐาน 6 </td><td class="ttc"><span style="white-space:nowrap;">
+นายอภิสิทธิ์ ศรีจันทร์ทับ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">24 พฤศจิกายน 2565 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ค33102 </td><td class="ttc">คณิตศาสตร์พื้นฐาน 6 </td><td class="ttc"><span style="white-space:nowrap;">
+นายอภิสิทธิ์ ศรีจันทร์ทับ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">9 พฤศจิกายน 2565 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ค33102 </td><td class="ttc">คณิตศาสตร์พื้นฐาน 6 </td><td class="ttc"><span style="white-space:nowrap;">
+นายอภิสิทธิ์ ศรีจันทร์ทับ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">3 พฤศจิกายน 2565 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ท33102 </td><td class="ttc">ภาษาไทย 6 </td><td class="ttc"><span style="white-space:nowrap;">
+นางอัญชนา บุญพุฒ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">3 มกราคม 2566 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ว30295 </td><td class="ttc">การสร้างเว็บไซต์ 2 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาววัชรา ปานนาค</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">28 กุมภาพันธ์ 2566 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+2</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ว30295 </td><td class="ttc">การสร้างเว็บไซต์ 2 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาววัชรา ปานนาค</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">14 กุมภาพันธ์ 2566 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+2</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ว30295 </td><td class="ttc">การสร้างเว็บไซต์ 2 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาววัชรา ปานนาค</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">7 กุมภาพันธ์ 2566 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+2</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ว30295 </td><td class="ttc">การสร้างเว็บไซต์ 2 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาววัชรา ปานนาค</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">17 มกราคม 2566 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+2</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ว30295 </td><td class="ttc">การสร้างเว็บไซต์ 2 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาววัชรา ปานนาค</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">3 มกราคม 2566 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+2</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">2 </td><td class="ttc">ม.6 </td><td class="ttc">ส33102 </td><td class="ttc">สังคมศึกษา 6 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวสาวิตรี เกตุประยูร</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">25 มกราคม 2566 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">1 </td><td class="ttc">ม.6 </td><td class="ttc">ค33101 </td><td class="ttc">คณิตศาสตร์พื้นฐาน 5 </td><td class="ttc"><span style="white-space:nowrap;">
+นายอภิสิทธิ์ ศรีจันทร์ทับ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">21 กรกฎาคม 2565 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">1 </td><td class="ttc">ม.6 </td><td class="ttc">ค33101 </td><td class="ttc">คณิตศาสตร์พื้นฐาน 5 </td><td class="ttc"><span style="white-space:nowrap;">
+นายอภิสิทธิ์ ศรีจันทร์ทับ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">10 มิถุนายน 2565 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2565 </td><td class="ttc">1 </td><td class="ttc">ม.6 </td><td class="ttc">ว30294 </td><td class="ttc">การเขียนโปรแกรม </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาววัชรา ปานนาค</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">7 กันยายน 2565 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+2</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">2 </td><td class="ttc">ม.5 </td><td class="ttc">อ32102 </td><td class="ttc">ภาษาอังกฤษ 4 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวมาลินี ปัญสุวรรณวงศ์</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">13 ธันวาคม 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">2 </td><td class="ttc">ม.5 </td><td class="ttc">อ32102 </td><td class="ttc">ภาษาอังกฤษ 4 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวมาลินี ปัญสุวรรณวงศ์</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">8 ธันวาคม 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">2 </td><td class="ttc">ม.5 </td><td class="ttc">อ32102 </td><td class="ttc">ภาษาอังกฤษ 4 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวมาลินี ปัญสุวรรณวงศ์</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">1 ธันวาคม 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">2 </td><td class="ttc">ม.5 </td><td class="ttc">อ32102 </td><td class="ttc">ภาษาอังกฤษ 4 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวมาลินี ปัญสุวรรณวงศ์</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">8 พฤศจิกายน 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">2 </td><td class="ttc">ม.5 </td><td class="ttc">อ32102 </td><td class="ttc">ภาษาอังกฤษ 4 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวมาลินี ปัญสุวรรณวงศ์</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">1 พฤศจิกายน 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">1 </td><td class="ttc">ม.5 </td><td class="ttc">ว30287 </td><td class="ttc">ร่างกายของเรา </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาววาธิณี เมณฑ์กูล</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">19 สิงหาคม 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">1 </td><td class="ttc">ม.5 </td><td class="ttc">ส30232 </td><td class="ttc">หน้าที่พลเมืองเพิ่มเติม 2 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวมาลินี ปัญสุวรรณวงศ์</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+0.5</span>
+ </td><td class="ttc">1 มิถุนายน 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2564 </td><td class="ttc">1 </td><td class="ttc">ม.5 </td><td class="ttc">อ32101 </td><td class="ttc">ภาษาอังกฤษ 3 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวมาลินี ปัญสุวรรณวงศ์</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">1 มิถุนายน 2564 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2563 </td><td class="ttc">2 </td><td class="ttc">ม.4 </td><td class="ttc">ว31103 </td><td class="ttc">วิทยาการคำนวณ 1 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวจิตสุภา บางไทร</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+0.5</span>
+ </td><td class="ttc">7 ธันวาคม 2563 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2563 </td><td class="ttc">1 </td><td class="ttc">ม.4 </td><td class="ttc">ท31101 </td><td class="ttc">ภาษาไทย 1 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวกฤติญดา อ่อนคล้าย</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">3 สิงหาคม 2563 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2563 </td><td class="ttc">1 </td><td class="ttc">ม.4 </td><td class="ttc">ส30222 </td><td class="ttc">กฏหมายรัฐธรรมนูญ </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวสาวิตรี เกตุประยูร</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1.0</span>
+ </td><td class="ttc">9 ตุลาคม 2563 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2563 </td><td class="ttc">1 </td><td class="ttc">ม.4 </td><td class="ttc">ส31103 </td><td class="ttc">ประวัติศาสตร์ไทย 1 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวจารุทรรศน์ แสนศิริ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+0.5</span>
+ </td><td class="ttc">14 ตุลาคม 2563 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+		
+<tr><td class="ticnb" scope="row"></td><td class="ttc">2563 </td><td class="ttc">1 </td><td class="ttc">ม.4 </td><td class="ttc">ส31103 </td><td class="ttc">ประวัติศาสตร์ไทย 1 </td><td class="ttc"><span style="white-space:nowrap;">
+นางสาวจารุทรรศน์ แสนศิริ</span>
+</td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+0.5</span>
+ </td><td class="ttc">22 กรกฎาคม 2563 </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+ขาด</span>
+ </td><td class="ttc" style="text-align: right;"><span style="white-space:nowrap;">
+1</span>
+ </td><td class="ttc">&nbsp; </td></tr>
+
+</tbody></table>
+</td></tr></tbody></table>
+
+	</div>
+                </td><td class="panelR"></td></tr></tbody></table>
+	<input type="hidden" name="ctl00$PageContent$View_TranscriptsAttendTableControl_PostbackTracker" id="ctl00_PageContent_View_TranscriptsAttendTableControl_PostbackTracker">
+
+
+            </td></tr></tbody></table>
+    
+</div>
+</div>
+    <div id="detailPopup" class="detailRolloverPopup" onmouseout="detailRolloverPopupClose();" onmouseover="clearTimeout(gPopupTimer);"></div>
+                   <div class="QDialog" id="dialog" style="display:none;">
+                          <iframe id="QuickPopupIframe" style="width:100%;height:100%;border:none"></iframe>
+                   </div>                  
+    <div id="ctl00_PageContent_ValidationSummary1" style="color:Red;display:none;">
+
+</div>
+</td><td class="marginR">&nbsp;</td></tr><tr><td class="marginBL">&nbsp;</td><td class="pcB" colspan="2">
+<table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="footer">Copyright © 2015 Computer Engineering Co.,Ltd. All rights reserved.
+<br>
+<a href="https://play.google.com/store/apps/details?id=com.Sgss&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img style="border: 0;" width="25%" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"></a></td><td class="footer"></td></tr></tbody></table></td><td class="marginBR">&nbsp;</td></tr></tbody></table>
+</td><td class="pageR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageRSpace" alt=""></td></tr><tr><td colspan="3"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="pageBL"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageBLSpace" alt=""></td><td class="pageB"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageBSpace" alt=""></td><td class="pageBR"><img src="http://sgs6.bopp-obec.info/sgss/Images/space.gif" class="pageBRSpace" alt=""></td></tr></tbody></table>
+</td></tr></tbody></table>
+        
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ctl00_PageContent_ValidationSummary1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_PageContent_ValidationSummary1 = document.all ? document.all["ctl00_PageContent_ValidationSummary1"] : document.getElementById("ctl00_PageContent_ValidationSummary1");
+ctl00_PageContent_ValidationSummary1.headertext = "โปรดแก้ไขข้อผิดพลาดดังต่อไปนี้:";
+ctl00_PageContent_ValidationSummary1.showmessagebox = "True";
+ctl00_PageContent_ValidationSummary1.showsummary = "False";
+//]]>
+</script>
+
+<script language="javascript" type="text/javascript">var ctrl = ""; function pageLoadedHandler1(sender, args) { setTimeout("setTimeoutFocus()", 1000); }function setTimeoutFocus() { setFocus(ctrl); }Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(pageLoadedHandler1);</script>
+<script type="text/javascript">
+//<![CDATA[
+openPopupPage('QPageSize');(function() {var fn = function() {$get("ctl00_scriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ctl00_PageContent_ValidationSummary1');
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_PageContent_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_PageContent_UpdatePanel1_UpdateProgress1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AutoCompleteBehavior, {"completionInterval":700,"completionListCssClass":"autotypeahead_completionListElement","completionListItemCssClass":"autotypeahead_listItem ","delimiterCharacters":"","highlightedItemCssClass":"autotypeahead_highlightedListItem","id":"ctl00_PageContent_View_TranscriptsAttendSearchAutoCompleteExtender","minimumPrefixLength":2,"serviceMethod":"GetAutoCompletionList_View_TranscriptsAttendSearch","servicePath":"/sgss/View_TranscriptsAttend/Show-View-TranscriptsAttend-Table.aspx"}, null, null, $get("ctl00_PageContent_View_TranscriptsAttendSearch"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_PageContent_TextBoxWatermark_ClientState","WatermarkCssClass":"Search_InputHint","WatermarkText":"รหัสวิชา","id":"ctl00_PageContent_TextBoxWatermark"}, null, null, $get("ctl00_PageContent_View_TranscriptsAttendSearch"));
+});
+//]]>
+</script>
+<input type="hidden" value="1" id="hiddenInputToUpdateATBuffer_CommonToolkitScripts" name="hiddenInputToUpdateATBuffer_CommonToolkitScripts"></form>
+    
+
+          <ul id="ctl00_PageContent_View_TranscriptsAttendSearchAutoCompleteExtender_completionListElem" class="autotypeahead_completionListElement" style="position: absolute;"></ul></body></html>
